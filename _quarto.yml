@@ -5,9 +5,11 @@ website:
   title: "Na Nguyen"
   navbar:
     left:
-      - href: index.qmd
+      - icon: house-door
+        href: index.qmd
         text: Home
-      - text: Projects
+      - icon: collection
+        text: Projects
         menu:
           - text: Data Science
             href: data.qmd

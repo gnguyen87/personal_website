@@ -1,9 +1,5 @@
 ---
-title: "About"
+title: "My Data Science Projects"
 ---
 
-About this site
 
-```{r}
-1 + 1
-```
