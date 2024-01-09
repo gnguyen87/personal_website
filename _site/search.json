@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome!",
+    "section": "",
+    "text": "Hello there! I’m Na Nguyen, a dedicated student pursuing a double major in Data Science and International Studies with a disciplinary focus in Educational Studies at Macalester College (Class of ’25). An aspiring educator and researcher, I endeavour to fight for educational equity and social justice through data-driven insights.\nMy journey is defined by a strong foundation in project management, curriculum development, and community outreach. Alongside, I possess proficient skills in software development and data analysis.\nExplore my portfolio where I am constantly investigating how education, health, industry, and technology as separate entities as well as ways they can synergize!"
+  },
+  {
+    "objectID": "data.html",
+    "href": "data.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "cs.html",
+    "href": "cs.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  }
+]

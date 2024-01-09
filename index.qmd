@@ -1,0 +1,31 @@
+---
+title: "Welcome!"
+about:
+  template: jolla
+  image: images/profilepic.jpg
+  image-shape: round
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/na-anh-nguyen/
+    - icon: github
+      text: Github
+      href: https://github.com/gnguyen87
+    - icon: envelope
+      text: Email
+      href: mailto:n.anhnguyen.work@gmail.com
+      
+comments: false
+---
+
+:::{.animate__animated .animate__slideInRight .animate__faster}
+
+
+Hello there! I'm **Na Nguyen**, a dedicated student pursuing a double major in **Data Science and International Studies** with a disciplinary focus in **Educational Studies** at Macalester College (Class of '25). An aspiring educator and researcher, I endeavour to fight for educational equity and social justice through data-driven insights.
+
+My journey is defined by a strong foundation in project management, curriculum development, and community outreach. Alongside, I possess proficient skills in software development and data analysis. 
+
+Explore my portfolio where I am constantly investigating how education, health, industry, and technology as separate entities as well as ways they can synergize!
+:::
+
+
