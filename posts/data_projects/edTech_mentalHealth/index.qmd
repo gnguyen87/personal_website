@@ -1,0 +1,25 @@
+---
+title: "Building Etech for Mental Health"
+author: Na Nguyen, Aviana Bui (Mac'25)
+date: "December 13, 2023"
+image: thumbnail.png
+categories: 
+  - R
+  - Full Stack Analysis
+  - Education
+  - Tech
+about: 
+  template: solana
+  image: thumbnail.png
+  links: 
+    - icon: link-45deg
+      text: Website
+      href: https://aviannabui.github.io/website_project_212/
+    - icon: github
+      text: Github
+      href: https://github.com/AviannaBui/website_project_212
+---
+
+This is a data science project created by Na Nguyen '25 and Avianna Bui '25 at Macalester College for COMP 212: Intermediate Data Science course in Fall 2023 semester. For more details on the project, visit our project website!
+
+Throughout and in the aftermath of the COVID-19 pandemic, there has been a notable shift towards incorporating technology into education. While educational technology has increased accessibility and flexibility in uncertain times, there are potential consequences due to the inherent lack of social connection and physical activities in online learning. In this project, we aim to investigate this increasing prevalence of educational technology and their impact on the well-being of individuals within this evolving educational landscape.

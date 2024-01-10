@@ -1,0 +1,22 @@
+---
+title: "Predicting Depression: An evaluation of the impact of Poverty & Physical Activity"
+author: Na Nguyen, James Hernandez, Jordy Marin Urbina, Sylvain Zong-Naba
+date: "February 20, 2023"
+image: thumbnail.png
+categories:
+  - R
+  - Logistical Regression
+  - Social Equity
+about: 
+  template: solana
+  image: thumbnail.png
+  links: 
+    - icon: link-45deg
+      text: Website
+      href: https://gnguyen87.github.io/logDepressionPovertyPhysicalActivity/
+    - icon: github
+      text: Github
+      href: https://github.com/gnguyen87/logDepressionPovertyPhysicalActivity
+---
+
+A collaborative project, our primary objective is to explore the variables related to depression by specifically looking at an individual's physical activity levels and the socioeconomic conditions of participants. The former will help our team identify if physical activity promotes a healthier mind, while the latter variable will help identify a trend on if and how financial situations impact one’s mental health. In sum, our final goal is to better understand the relationship between these factors so as to identify potential risk factors or protective factors that could help indicate mental health outcomes.

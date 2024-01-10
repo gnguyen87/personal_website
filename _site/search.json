@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome!",
+    "section": "",
+    "text": "Hello there! I’m Na Nguyen, a dedicated student pursuing a double major in Data Science and International Studies with a disciplinary focus in Educational Studies at Macalester College (Class of ’25). An aspiring analyst and researcher, I endeavour to investigate educational equity and social justice through data-driven insights.\nAlongside my software and data analysis skills, my journey is defined by a strong foundation in project management, curriculum development, and community outreach. My diverse background helps me to draw interdisciplinary frameworks to generate accessible and responsible data visualizations and narratives.\nExplore my portfolio where I am constantly investigating how education, health, industry, and technology as separate entities as well as ways they can converge!"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "cs.html",
+    "href": "cs.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "data.html",
+    "href": "data.html",
+    "title": "My Data Science Projects",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\nBuilding Etech for Mental Health\n\n\n\n\n\n\n\nR\n\n\nFull Stack Analysis\n\n\nEducation\n\n\nTech\n\n\n \n\n\n\n\nDec 13, 2023\n\n\nNa Nguyen, Aviana Bui (Mac’25)\n\n\n\n\n\n\n  \n\n\n\n\nMeasuring Movie Success Beyond the Dollar\n\n\n\n\n\n\n\nR\n\n\nEDA\n\n\nBusiness\n\n\nSocial Equity\n\n\n \n\n\n\n\nApr 22, 2023\n\n\nNa Nguyen, Emma Malcolm\n\n\n\n\n\n\n  \n\n\n\n\nHow To Be A Successful Weightlifter\n\n\n\n\n\n\n\nR\n\n\nLinear Regression\n\n\nHealth\n\n\n \n\n\n\n\nApr 21, 2023\n\n\nNa Nguyen, Jordy Marin Urbina\n\n\n\n\n\n\n  \n\n\n\n\nPredicting Depression: An evaluation of the impact of Poverty & Physical Activity\n\n\n\n\n\n\n\nR\n\n\nLogistical Regression\n\n\nSocial Equity\n\n\n \n\n\n\n\nFeb 20, 2023\n\n\nNa Nguyen, James Hernandez, Jordy Marin Urbina, Sylvain Zong-Naba\n\n\n\n\n\n\n  \n\n\n\n\nWhat Makes A Boardgame Difficult?\n\n\n\n\n\n\n\nR\n\n\nEDA\n\n\nOthers\n\n\n \n\n\n\n\nNov 11, 2022\n\n\nNa Nguyen, James Hernandez, Jordy Marin Urbina, Sylvain Zong-Naba\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/data_projects/edTech_mentalHealth/index.html",
+    "href": "posts/data_projects/edTech_mentalHealth/index.html",
+    "title": "Building Etech for Mental Health",
+    "section": "",
+    "text": "This is a data science project created by Na Nguyen ’25 and Avianna Bui ’25 at Macalester College for COMP 212: Intermediate Data Science course in Fall 2023 semester. For more details on the project, visit our project website!\nThroughout and in the aftermath of the COVID-19 pandemic, there has been a notable shift towards incorporating technology into education. While educational technology has increased accessibility and flexibility in uncertain times, there are potential consequences due to the inherent lack of social connection and physical activities in online learning. In this project, we aim to investigate this increasing prevalence of educational technology and their impact on the well-being of individuals within this evolving educational landscape."
+  }
+]

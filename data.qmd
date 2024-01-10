@@ -1,5 +1,14 @@
 ---
 title: "My Data Science Projects"
+listing:
+  contents:
+    - "posts/data_projects"
+  feed: true
+  fields: [image, date, title, author, categories]
+  type: default
+  categories: true
+  table-hover: true
+  sort-ui: true
+  filter-ui: true
+  sort: "date desc"
 ---
-
-

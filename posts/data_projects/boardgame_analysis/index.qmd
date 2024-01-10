@@ -1,0 +1,22 @@
+---
+title: "What Makes A Boardgame Difficult?"
+author: Na Nguyen, James Hernandez, Jordy Marin Urbina, Sylvain Zong-Naba
+date: "November 11, 2022"
+image: thumbnail.png
+categories:
+  - R
+  - EDA
+  - Others
+about: 
+  template: solana
+  image: thumbnail.png
+  links: 
+    - icon: link-45deg
+      text: Website
+      href: https://gnguyen87.github.io/boardgame_analysis/
+    - icon: github
+      text: Github
+      href: https://github.com/gnguyen87/boardgame_analysis
+---
+
+Reliant on boardgames as a bonding activity during college, our group were intrigued to investigate data on Board games created from 1950-2016 to uncover the veil behind their complexity (from game types and minimum age to number of categories and maximum players) and how they may correlate!

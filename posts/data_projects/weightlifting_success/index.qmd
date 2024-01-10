@@ -1,0 +1,20 @@
+---
+title: "How To Be A Successful Weightlifter"
+author: Na Nguyen, Jordy Marin Urbina
+date: "April 21, 2023"
+image: thumbnail.png
+categories:
+  - R
+  - Linear Regression
+  - Health
+about: 
+  template: solana
+  image: thumbnail.png
+  links: 
+    - icon: link-45deg
+      text: Website
+      href: https://gnguyen87.github.io/weightlift_success/
+    - icon: github
+      text: Github
+      href: https://github.com/gnguyen87/weightlift_success
+---
