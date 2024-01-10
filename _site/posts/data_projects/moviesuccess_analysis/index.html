@@ -35,7 +35,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../../site_libs/quarto-html/quarto.js"></script>
 <script src="../../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
@@ -66,7 +65,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="../../../styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -116,13 +115,12 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    </div>
+    
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-about-solana column-body">
+  <div class="about-entity">
+    <div class="entity-contents">
+      <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Measuring Movie Success Beyond the Dollar</h1>
   <div class="quarto-categories">
@@ -132,35 +130,37 @@ ul.task-list li input[type="checkbox"] {
     <div class="quarto-category">Social Equity</div>
   </div>
   </div>
-
-
-
 <div class="quarto-title-meta">
-
     <div>
     <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
              <p>Na Nguyen, Emma Malcolm </p>
           </div>
   </div>
-    
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
       <p class="date">April 22, 2023</p>
     </div>
   </div>
-  
-    
   </div>
-  
+</header> <div class="about-links">
+  <a href="https://github.com/gnguyen87/movie-success-measuremenANDanalysis" class="about-link" rel="" target="">
+    <i class="bi bi-github"></i>
+     <span class="about-link-text">Github</span>
+  </a>
+</div>
+      <div class="about-contents"><main class="content" id="quarto-document-content">
+<p>Ever since the “Golden Age” of cinema in the 1930s that marked silent film a thing of the past, the film industry has witnessed unparalleled success and growth. From the first technicolor movies like The Wizard of Oz and Gone With The Wind to the computationally animated The Matrix, Jurassic Park, and the first fully computer-animated film, Toy Story, the industry of motion pictures has contributed greatly not only to technology but also the global economy. Especially in the current challenging economy and there has been a sharp decline in theater audience—[shrinking by half in the last 4 years]https://en.wikipedia.org/wiki/IMDb), film distributors are hesitant to take on a movie unless they can see its success first hand. Therefore, box-office, or the entire earnings generated through movie ticket sales, has been recognized as one of the primary indicators to compare film success. Many rely on it to decide whether to both produce and watch a film. However, are high grossing movies actually… good? If so, what else can we use to measure them?</p>
 
-</header>
 
-
-
-
-</main> <!-- /main -->
+</main></div>
+    </div>
+    <img src="thumbnail.png" class="about-image
+  rounded " style="width: 15em;">
+  </div>
+</div>
+ <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -181,13 +181,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     

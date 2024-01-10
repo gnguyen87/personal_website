@@ -35,7 +35,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../../site_libs/quarto-html/quarto.js"></script>
 <script src="../../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
@@ -66,7 +65,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="../../../styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -116,13 +115,12 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    </div>
+    
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-about-solana column-body">
+  <div class="about-entity">
+    <div class="entity-contents">
+      <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Predicting Depression: An evaluation of the impact of Poverty &amp; Physical Activity</h1>
   <div class="quarto-categories">
@@ -131,35 +129,41 @@ ul.task-list li input[type="checkbox"] {
     <div class="quarto-category">Social Equity</div>
   </div>
   </div>
-
-
-
 <div class="quarto-title-meta">
-
     <div>
     <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
              <p>Na Nguyen, James Hernandez, Jordy Marin Urbina, Sylvain Zong-Naba </p>
           </div>
   </div>
-    
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
       <p class="date">February 20, 2023</p>
     </div>
   </div>
-  
-    
   </div>
-  
+</header> <div class="about-links">
+  <a href="https://gnguyen87.github.io/logDepressionPovertyPhysicalActivity/" class="about-link" rel="" target="">
+    <i class="bi bi-link-45deg"></i>
+     <span class="about-link-text">Website</span>
+  </a>
+  <a href="https://github.com/gnguyen87/logDepressionPovertyPhysicalActivity" class="about-link" rel="" target="">
+    <i class="bi bi-github"></i>
+     <span class="about-link-text">Github</span>
+  </a>
+</div>
+      <div class="about-contents"><main class="content" id="quarto-document-content">
+<p>A collaborative project, our primary objective is to explore the variables related to depression by specifically looking at an individual’s physical activity levels and the socioeconomic conditions of participants. The former will help our team identify if physical activity promotes a healthier mind, while the latter variable will help identify a trend on if and how financial situations impact one’s mental health. In sum, our final goal is to better understand the relationship between these factors so as to identify potential risk factors or protective factors that could help indicate mental health outcomes.</p>
 
-</header>
 
-
-
-
-</main> <!-- /main -->
+</main></div>
+    </div>
+    <img src="thumbnail.png" class="about-image
+  rounded " style="width: 15em;">
+  </div>
+</div>
+ <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -180,13 +184,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     
