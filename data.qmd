@@ -1,5 +1,9 @@
 ---
 title: "My Data Science Projects"
+website: 
+  navbar:
+      background: dark
+      search: true
 listing:
   contents:
     - "posts/data_projects"
@@ -12,3 +16,5 @@ listing:
   filter-ui: true
   sort: "date desc"
 ---
+
+I utilize frameworks such as machine learning, linear and logistic regression in order to perform exploratory data analysis (EDA), full-stack analysis, dashboards, and funnel analysis. Leveraging my fluency in R, SQL, Tableau, and Python, I seek to answer important questions of diverse topics, centering around education, health, and business. As a self-taught data analyst, I am constantly captivating my growth, training, and working on more and more projects, so visit again soon for newer and more insightful, focused projects!

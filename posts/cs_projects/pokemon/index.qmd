@@ -1,0 +1,20 @@
+---
+title: "Pokemon Card Game"
+author: Na Nguyen, Linh Nguyen, James Hernandez 
+description: |
+     A multi-level memory card game to enhance concentration and critical thinking skills in 5-8 youth
+date: "December 13, 2023"
+image: thumbnail.png
+categories: 
+  - Java
+  - Game
+about:
+  template: solana
+  image: thumbnail.png
+  links: 
+    - icon: github
+      text: Github
+      href: https://github.com/gnguyen87/course-project-pokemon_cards-na-linh-james
+---
+
+Pokemon Card Game is a multi-level memory card game developed in Java with [kilt-graphics API](https://mac-comp127.github.io/kilt-graphics/) to enhance concentration and critical thinking skills in 5-8 youth. The game has 3 levels of difficulty: easy (5 pairs, 10 attempts), medium (10 pairs, 20 attempts), and difficult (15 pairs, 30 attempts). The game begins with all cards flipped upside down. Upon clicking one of the cards, it flips face-side-up to reveal the pokemon it pertains to. The goal of the each round is to find the matching card, with 15 total pairs, for the card flipped. Upon the second card being clicked, if it is not a correct match, the cards will flip back over to hide the pokemon. However, if they match, the two cards will be removed from the screen. The goal of the game is to remove all pairs before the given time and under the limited number of attempts.

@@ -1,5 +1,9 @@
 ---
 title: "Welcome!"
+website: 
+  navbar:
+      background: dark
+      search: true
 about:
   template: jolla
   image: images/profilepic.jpg
@@ -25,3 +29,16 @@ Alongside my software and data analysis skills, my journey is defined by a stron
 
 Explore my portfolio where I am constantly investigating how education, health, industry, and technology as separate entities as well as ways they can converge!
 :::
+
+## Education
+Macalester College | St. Paul MN <br>
+B.A in Data Science and Internation Studies | Expected Grad: Spring'25
+
+## Experience (Recent)
+Research Analyst | Smart North | St. Paul MN <br>
+Intermediate Data Science Preceptor | Macalester College | St. Paul MN <br>
+Software Development and UX/UI Researcher | Macalester College | St. Paul MN
+
+## Community 
+Outreach Volunteer | Smart North | St. Paul MN <br>
+President | Vietnamese Cultural Organization | St. Paul MN

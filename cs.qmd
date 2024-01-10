@@ -1,9 +1,20 @@
 ---
-title: "About"
+title: "My Computer Science Projects"
+website: 
+  navbar:
+      background: dark
+      search: true
+listing:
+  contents:
+    - "posts/cs_projects"
+  feed: true
+  fields: [image, date, title, author, categories]
+  type: default
+  categories: true
+  table-hover: true
+  sort-ui: true
+  filter-ui: true
+  sort: "date desc"
 ---
 
-About this site
-
-```{r}
-1 + 1
-```
+Alongside Data Science, I train myself in Python and Java within both frameworks of functional programming (FP) and object-oriented programming (OOP) to develop multi-level games. With my background in education, my aim is to create games that not only entertain but also foster cultural understanding and align with developmental milestones.

@@ -1,0 +1,20 @@
+---
+title: "Ngon Game"
+author: Na Nguyen 
+description: |
+    A click-and-drop multi-level game introducing players to Vietnamese cuisine using the Python-Tkinter GUI toolkit
+date: "December 13, 2022"
+image: thumbnail.png
+categories: 
+  - Python
+  - Game
+about:
+  template: solana
+  image: thumbnail.png
+  links: 
+    - icon: github
+      text: Github
+      href: https://github.com/gnguyen87/ngon-game
+---
+
+Ngon is an interactive, multi-level game that invites users to play and learn more about Vietnamese cuisine at the same time. Using Tkinter to create its Graphic User Interface program, Ngon offers users a tailored experience by letting them create their own user name and choose their own level. A unique Vietnamese dish unraveled to users at every level, Ngon gives users information about the dish (its ingredients as well as its historical background) before taking them to the game screen, in which they must click on the correct icons of ingredients among many flying across the screen to win.

@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Na Nguyen">
 
-<title>Na Nguyen - Welcome!</title>
+<title>Na Nguyen - Tidy Tuesday #3</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,24 +21,59 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -60,7 +96,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -70,7 +106,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Na Nguyen</span>
     </a>
   </div>
@@ -81,7 +117,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" rel="" target="" aria-current="page"><i class="bi bi-house-door" role="img">
+    <a class="nav-link" href="../../index.html" rel="" target=""><i class="bi bi-house-door" role="img">
 </i> 
  <span class="menu-text">Home</span></a>
   </li>  
@@ -93,11 +129,11 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-projects">    
         <li>
-    <a class="dropdown-item" href="./data.html" rel="" target="">
+    <a class="dropdown-item" href="../../data.html" rel="" target="">
  <span class="dropdown-text">Data Science</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./cs.html" rel="" target="">
+    <a class="dropdown-item" href="../../cs.html" rel="" target="">
  <span class="dropdown-text">Computer Science</span></a>
   </li>  
     </ul>
@@ -116,62 +152,81 @@ ul.task-list li input[type="checkbox"] {
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
+   
   <ul>
-  <li><a href="#education" id="toc-education" class="nav-link active" data-scroll-target="#education">Education</a></li>
-  <li><a href="#experience-recent" id="toc-experience-recent" class="nav-link" data-scroll-target="#experience-recent">Experience (Recent)</a></li>
-  <li><a href="#community" id="toc-community" class="nav-link" data-scroll-target="#community">Community</a></li>
+  <li><a href="#data-choice-hollywood-age-gaps" id="toc-data-choice-hollywood-age-gaps" class="nav-link active" data-scroll-target="#data-choice-hollywood-age-gaps">Data choice: Hollywood Age Gaps</a></li>
+  <li><a href="#data-set" id="toc-data-set" class="nav-link" data-scroll-target="#data-set">Data Set</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<div class="quarto-about-jolla">
-  <img src="images/profilepic.jpg" class="about-image
-  round " style="height: 15em; width: 15em;">
- <header id="title-block-header" class="quarto-title-block default">
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Welcome!</h1>
+<h1 class="title">Tidy Tuesday #3</h1>
 </div>
+
+
+
 <div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Na Nguyen </p>
+          </div>
   </div>
-</header><main class="content" id="quarto-document-content">
+    
+  
+    
+  </div>
+  
 
-<div class="animate__animated animate__slideInRight animate__faster">
-<p>Hello there! I’m <strong>Na Nguyen</strong>, a dedicated student pursuing a double major in <strong>Data Science and International Studies</strong> with a disciplinary focus in <strong>Educational Studies</strong> at Macalester College (Class of ’25). An aspiring analyst and researcher, I endeavour to investigate educational equity and social justice through data-driven insights.</p>
-<p>Alongside my software and data analysis skills, my journey is defined by a strong foundation in project management, curriculum development, and community outreach. My diverse background helps me to draw interdisciplinary frameworks to generate accessible and responsible data visualizations and narratives.</p>
-<p>Explore my portfolio where I am constantly investigating how education, health, industry, and technology as separate entities as well as ways they can converge!</p>
+</header>
+
+<section id="data-choice-hollywood-age-gaps" class="level2">
+<h2 class="anchored" data-anchor-id="data-choice-hollywood-age-gaps">Data choice: Hollywood Age Gaps</h2>
+<p>The question this graph wants to answer: Is there a difference in the age gap width if the older character is a man versus if the older character is a woman?</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Filtering Data</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>age_gaps_clean <span class="ot">&lt;-</span> age_gaps <span class="sc">%&gt;%</span> </span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">older_char_hetero=</span>case_when</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  (</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  character_1_gender <span class="sc">==</span> <span class="st">"woman"</span> <span class="sc">&amp;</span> character_2_gender<span class="sc">==</span><span class="st">"man"</span><span class="sc">&amp;</span> character_1_gender <span class="sc">!=</span> character_2_gender <span class="sc">~</span> <span class="st">"Woman"</span>,</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>  character_1_gender <span class="sc">==</span> <span class="st">"man"</span> <span class="sc">&amp;</span> character_2_gender<span class="sc">==</span><span class="st">"woman"</span><span class="sc">&amp;</span> character_1_gender <span class="sc">!=</span> character_2_gender <span class="sc">~</span> <span class="st">"Man"</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<section id="education" class="level2">
-<h2 data-anchor-id="education">Education</h2>
-<p>Macalester College | St.&nbsp;Paul MN <br> B.A in Data Science and Internation Studies | Expected Grad: Spring’25</p>
-</section>
-<section id="experience-recent" class="level2">
-<h2 data-anchor-id="experience-recent">Experience (Recent)</h2>
-<p>Research Analyst | Smart North | St.&nbsp;Paul MN <br> Intermediate Data Science Preceptor | Macalester College | St.&nbsp;Paul MN <br> Software Development and UX/UI Researcher | Macalester College | St.&nbsp;Paul MN</p>
-</section>
-<section id="community" class="level2">
-<h2 data-anchor-id="community">Community</h2>
-<p>Outreach Volunteer | Smart North | St.&nbsp;Paul MN <br> President | Vietnamese Cultural Organization | St.&nbsp;Paul MN</p>
-
-
-</section>
-</main> 
-  <hr class="about-sep">
-   <div class="about-links">
-  <a href="https://www.linkedin.com/in/na-anh-nguyen/" class="about-link" rel="" target="">
-    <i class="bi bi-linkedin"></i>
-     <span class="about-link-text">LinkedIn</span>
-  </a>
-  <a href="https://github.com/gnguyen87" class="about-link" rel="" target="">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text">Github</span>
-  </a>
-  <a href="mailto:n.anhnguyen.work@gmail.com" class="about-link" rel="" target="">
-    <i class="bi bi-envelope"></i>
-     <span class="about-link-text">Email</span>
-  </a>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>age_gaps_clean <span class="sc">%&gt;%</span> <span class="fu">filter</span>(older_char_hetero <span class="sc">!=</span> <span class="st">"N/A"</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>(<span class="fu">aes</span>(<span class="at">y=</span>age_difference,<span class="at">x=</span>older_char_hetero,<span class="at">fill=</span>older_char_hetero))<span class="sc">+</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_boxplot</span>(<span class="at">na.rm=</span><span class="cn">TRUE</span>)<span class="sc">+</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_fill_discrete</span>(<span class="at">name=</span><span class="st">"Gender of Older Character"</span>)<span class="sc">+</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_classic</span>()<span class="sc">+</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title=</span><span class="st">"Hollywood Age Gaps In Heterosexual Couples"</span>,<span class="at">subtitle=</span><span class="st">"By Gender of Older Character"</span>,<span class="at">caption=</span><span class="st">"Graph by Na Nguyen, data from Hollywood Age Gap via Data Is Plural"</span>,<span class="at">y=</span><span class="st">"Age Difference (Years)"</span>)<span class="sc">+</span></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">axis.title.x =</span> <span class="fu">element_blank</span>(),<span class="at">plot.title=</span><span class="fu">element_text</span>(<span class="at">face=</span><span class="st">"bold"</span>),<span class="at">plot.caption=</span><span class="fu">element_text</span>(<span class="at">hjust=</span><span class="dv">0</span>,<span class="at">vjust=</span><span class="sc">-</span><span class="dv">2</span>,<span class="at">face=</span><span class="st">"italic"</span>),<span class="at">axis.title.y=</span><span class="fu">element_text</span>(<span class="at">size=</span><span class="dv">9</span>), <span class="at">legend.position =</span> <span class="st">"none"</span>) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<p><img src="03_tidy_tuesday_sp23_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid" alt="This boxplot shows the age gaps in Hollywood hetereosexual couples, comparing the difference in gender of older character. It appears that the interquartile range,median, and  of the men group is greater than that of the woman. In other words, age gaps in Hollywood heterosexual couples tends to be far greater when the older character is a man." width="672"></p>
 </div>
 </div>
- <!-- /main -->
+</section>
+<section id="data-set" class="level2">
+<h2 class="anchored" data-anchor-id="data-set">Data Set</h2>
+<p>The data this week comes from Hollywood Age Gap via Data Is Plural.</p>
+<p>An informational site showing the age gap between movie love interests.</p>
+<p>The data follows certain rules:</p>
+<p>The two (or more) actors play actual love interests (not just friends, coworkers, or some other non-romantic type of relationship)</p>
+<p>The youngest of the two actors is at least 17 years old</p>
+<p>Not animated characters</p>
+<p>We previously provided a dataset about the Bechdel Test. It might be interesting to see whether there is any correlation between these datasets! The Bechdel Test dataset also included additional information about the films that were used in that dataset.</p>
+<p>Note: The age gaps dataset includes “gender” columns, which always contain the values “man” or “woman”. These values appear to indicate how the characters in each film identify. Some of these values do not match how the actor identifies. We apologize if any characters are misgendered in the data!</p>
+<p><a href="https://github.com/rfordatascience/tidytuesday/blob/master/data/2023/2023-02-14/readme.md">Find more information here</a></p>
+
+
+</section>
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -192,6 +247,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     
