@@ -22,13 +22,12 @@ about:
 comments: false
 ---
 
-::: {.animate__animated .animate__slideInRight .animate__faster}
 Hello there! I'm **Na Nguyen**, a dedicated student pursuing a double major in **Data Science and International Studies** with a disciplinary focus in **Educational Studies** at Macalester College (Class of '25). An aspiring analyst and researcher, I endeavour to investigate educational equity and social justice through data-driven insights.
 
 Alongside my software and data analysis skills, my journey is defined by a strong foundation in project management, curriculum development, and community outreach. My diverse background helps me to draw interdisciplinary frameworks to generate accessible and responsible data visualizations and narratives.
 
 Explore my portfolio where I am constantly investigating how education, health, industry, and technology as separate entities as well as ways they can converge!
-:::
+
 
 ## Education
 Macalester College | St. Paul MN <br>
