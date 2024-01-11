@@ -15,29 +15,6 @@ website:
             href: data.qmd
           - text: Computer Science
             href: cs.qmd
-      - icon: file-bar-graph
-        text: Tidy Tuesdays
-        menu:
-          - text: viz1
-            href: viz1.qmd
-          - text: viz2
-            href: viz2.qmd
-      - icon: graph-up
-        text: Research
-        menu:
-          - text: Blocks4All
-            href: blocks4all.qmd
-          - text: Wxmen In Tech
-            href: smartnorth.qmd
-        
-    right:
-      - icon: github
-        href: https://github.com/gnguyen87
-      - icon: linkedin
-        href: https://www.linkedin.com/in/na-anh-nguyen/
-      
-
-
 
 format:
   html:
