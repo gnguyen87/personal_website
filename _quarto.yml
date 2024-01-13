@@ -15,6 +15,11 @@ website:
             href: data.qmd
           - text: Computer Science
             href: cs.qmd
+    right:
+      - icon: github
+        href: https://github.com/gnguyen87
+      - icon: linkedin
+        href: https://www.linkedin.com/in/na-anh-nguyen/
 
 format:
   html:
