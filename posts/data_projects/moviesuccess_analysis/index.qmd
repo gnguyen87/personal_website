@@ -14,7 +14,7 @@ about:
   links: 
     - icon: link-45deg
       text: Website
-      href: https://github.com/gnguyen87/movie-success-measuremenANDanalysis
+      href: https://gnguyen87.github.io/movie-success-measuremenANDanalysis/
     - icon: github
       text: Github
       href: https://github.com/gnguyen87/movie-success-measuremenANDanalysis
