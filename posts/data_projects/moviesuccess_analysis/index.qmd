@@ -8,6 +8,10 @@ categories:
   - EDA
   - Business
   - Social Equity
+website: 
+  navbar:
+      background: dark
+      search: true
 about: 
   template: solana
   image: thumbnail.png

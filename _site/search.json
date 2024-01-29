@@ -14,39 +14,18 @@
     "text": "About this site\n\n1 + 1\n\n[1] 2"
   },
   {
-    "objectID": "posts/cs_projects/ngon_game/index.html",
-    "href": "posts/cs_projects/ngon_game/index.html",
-    "title": "Ngon Game",
+    "objectID": "posts/tidy_tuesdays/uk_ed/index.html",
+    "href": "posts/tidy_tuesdays/uk_ed/index.html",
+    "title": "Why do UK pupils in small towns had better educational attainment than in larger cities?",
     "section": "",
-    "text": "Ngon is an interactive, multi-level game that invites users to play and learn more about Vietnamese cuisine at the same time. Using Tkinter to create its Graphic User Interface program, Ngon offers users a tailored experience by letting them create their own user name and choose their own level. A unique Vietnamese dish unraveled to users at every level, Ngon gives users information about the dish (its ingredients as well as its historical background) before taking them to the game screen, in which they must click on the correct icons of ingredients among many flying across the screen to win."
+    "text": "Based on the Data Set collected by The UK Office for National Statistics, pupils in small towns had better educational attainment than in larger towns and cities. Interested in exploring the pain points in long-term educational attainment in the UK, I completed 3 interactive visual analyses. Within the context of this dataset, educational attainment points to the proportion of the town population that successfully completes a certain educational level. From these graphs, I found that the educational attainment is suggested to be much lower in income-deprived towns. Furthermore, this trend performs worse and worse the higher the educational level. More interestingly, UK towns that tend to be of higher deprivation in terms of income tend to be bigger-sized. These findings suggest geoeconomic factors such as the relationship between town size and town economic performance are imperative to the town overall educational attainment level.\nSource: The dataset this week comes from The UK Office for National Statistics. It was explored in the July 2023 article “Why do children and young people in smaller towns do better academically than those in larger towns?”. (Tidy Tuesday, 2024-01-23)"
   },
   {
-    "objectID": "posts/data_projects/depression_prediction/index.html",
-    "href": "posts/data_projects/depression_prediction/index.html",
-    "title": "Predicting Depression: An evaluation of the impact of Poverty & Physical Activity",
+    "objectID": "posts/cs_projects/pokemon/index.html",
+    "href": "posts/cs_projects/pokemon/index.html",
+    "title": "Pokemon Card Game",
     "section": "",
-    "text": "A collaborative project, our primary objective is to explore the variables related to depression by specifically looking at an individual’s physical activity levels and the socioeconomic conditions of participants. The former will help our team identify if physical activity promotes a healthier mind, while the latter variable will help identify a trend on if and how financial situations impact one’s mental health. In sum, our final goal is to better understand the relationship between these factors so as to identify potential risk factors or protective factors that could help indicate mental health outcomes."
-  },
-  {
-    "objectID": "posts/data_projects/weightlifting_success/index.html",
-    "href": "posts/data_projects/weightlifting_success/index.html",
-    "title": "Are Weightlifting Contests…Fair?",
-    "section": "",
-    "text": "You may have probably seen people lifting different weights in the gym. But why do people even lift? There are numerous reasons for lifting but one of the most common reasons is to become stronger, while others do lifting for a competition such as powerlifting. Powerlifting is a strength sport that has been part of the Olympics Games since 1896 and consists of three attempts to achieve the maximum weight on each of the three lifts: squat, bench press, and deadlift. During these competitions, some participants lift heavier weights than others. So we wonder, what accounts for this difference in a competitor’s performance? Could it be merely because of biological factors? Or are there any other factors that might impact a person’s ability to lift a certain weight?"
-  },
-  {
-    "objectID": "posts/data_projects/boardgame_analysis/index.html",
-    "href": "posts/data_projects/boardgame_analysis/index.html",
-    "title": "What Makes A Boardgame Difficult?",
-    "section": "",
-    "text": "Reliant on boardgames as a bonding activity during college, our group were intrigued to investigate data on Board games created from 1950-2016 to uncover the veil behind their complexity (from game types and minimum age to number of categories and maximum players) and how they may correlate!"
-  },
-  {
-    "objectID": "posts/data_projects/edTech_mentalHealth/index.html",
-    "href": "posts/data_projects/edTech_mentalHealth/index.html",
-    "title": "Building Etech for Mental Health",
-    "section": "",
-    "text": "This is a data science project created by Na Nguyen ’25 and Avianna Bui ’25 at Macalester College for COMP 212: Intermediate Data Science course in Fall 2023 semester. For more details on the project, visit our project website!\nThroughout and in the aftermath of the COVID-19 pandemic, there has been a notable shift towards incorporating technology into education. While educational technology has increased accessibility and flexibility in uncertain times, there are potential consequences due to the inherent lack of social connection and physical activities in online learning. In this project, we aim to investigate this increasing prevalence of educational technology and their impact on the well-being of individuals within this evolving educational landscape."
+    "text": "Pokemon Card Game is a multi-level memory card game developed in Java with kilt-graphics API to enhance concentration and critical thinking skills in 5-8 youth. The game has 3 levels of difficulty: easy (5 pairs, 10 attempts), medium (10 pairs, 20 attempts), and difficult (15 pairs, 30 attempts). The game begins with all cards flipped upside down. Upon clicking one of the cards, it flips face-side-up to reveal the pokemon it pertains to. The goal of the each round is to find the matching card, with 15 total pairs, for the card flipped. Upon the second card being clicked, if it is not a correct match, the cards will flip back over to hide the pokemon. However, if they match, the two cards will be removed from the screen. The goal of the game is to remove all pairs before the given time and under the limited number of attempts."
   },
   {
     "objectID": "posts/data_projects/moviesuccess_analysis/index.html",
@@ -56,11 +35,46 @@
     "text": "Ever since the “Golden Age” of cinema in the 1930s that marked silent film a thing of the past, the film industry has witnessed unparalleled success and growth. From the first technicolor movies like The Wizard of Oz and Gone With The Wind to the computationally animated The Matrix, Jurassic Park, and the first fully computer-animated film, Toy Story, the industry of motion pictures has contributed greatly not only to technology but also the global economy. Especially in the current challenging economy and there has been a sharp decline in theater audience—[shrinking by half in the last 4 years]https://en.wikipedia.org/wiki/IMDb), film distributors are hesitant to take on a movie unless they can see its success first hand. Therefore, box-office, or the entire earnings generated through movie ticket sales, has been recognized as one of the primary indicators to compare film success. Many rely on it to decide whether to both produce and watch a film. However, are high grossing movies actually… good? If so, what else can we use to measure them?"
   },
   {
-    "objectID": "posts/cs_projects/pokemon/index.html",
-    "href": "posts/cs_projects/pokemon/index.html",
-    "title": "Pokemon Card Game",
+    "objectID": "posts/data_projects/edTech_mentalHealth/index.html",
+    "href": "posts/data_projects/edTech_mentalHealth/index.html",
+    "title": "Building Etech for Mental Health",
     "section": "",
-    "text": "Pokemon Card Game is a multi-level memory card game developed in Java with kilt-graphics API to enhance concentration and critical thinking skills in 5-8 youth. The game has 3 levels of difficulty: easy (5 pairs, 10 attempts), medium (10 pairs, 20 attempts), and difficult (15 pairs, 30 attempts). The game begins with all cards flipped upside down. Upon clicking one of the cards, it flips face-side-up to reveal the pokemon it pertains to. The goal of the each round is to find the matching card, with 15 total pairs, for the card flipped. Upon the second card being clicked, if it is not a correct match, the cards will flip back over to hide the pokemon. However, if they match, the two cards will be removed from the screen. The goal of the game is to remove all pairs before the given time and under the limited number of attempts."
+    "text": "This is a data science project created by Na Nguyen ’25 and Avianna Bui ’25 at Macalester College for COMP 212: Intermediate Data Science course in Fall 2023 semester. For more details on the project, visit our project website!\nThroughout and in the aftermath of the COVID-19 pandemic, there has been a notable shift towards incorporating technology into education. While educational technology has increased accessibility and flexibility in uncertain times, there are potential consequences due to the inherent lack of social connection and physical activities in online learning. In this project, we aim to investigate this increasing prevalence of educational technology and their impact on the well-being of individuals within this evolving educational landscape."
+  },
+  {
+    "objectID": "tidytuesdays.html",
+    "href": "tidytuesdays.html",
+    "title": "My Tidy Tuesdays!",
+    "section": "",
+    "text": "Besides all coursework projects, I endeavor to participate in Tidy Tuesday, a weekly data analysis project in the R programming language. It’s part of the broader #TidyTuesday initiative, which was started by the R4DS (R for Data Science) .\nBy being part of this online learning community, I am constantly enriching myself in new visualizations and data narratives while being updated on the current social, economic, and political landscape!\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\nWhy do UK pupils in small towns had better educational attainment than in larger cities?\n\n\n\n\n\n\n\nR\n\n\nInteractive Viz\n\n\nEducation\n\n\n \n\n\n\n\nJan 28, 2024\n\n\nNa Nguyen\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/data_projects/boardgame_analysis/index.html",
+    "href": "posts/data_projects/boardgame_analysis/index.html",
+    "title": "What Makes A Boardgame Difficult?",
+    "section": "",
+    "text": "Reliant on boardgames as a bonding activity during college, our group were intrigued to investigate data on Board games created from 1950-2016 to uncover the veil behind their complexity (from game types and minimum age to number of categories and maximum players) and how they may correlate!"
+  },
+  {
+    "objectID": "posts/data_projects/weightlifting_success/index.html",
+    "href": "posts/data_projects/weightlifting_success/index.html",
+    "title": "Are Weightlifting Contests…Fair?",
+    "section": "",
+    "text": "You may have probably seen people lifting different weights in the gym. But why do people even lift? There are numerous reasons for lifting but one of the most common reasons is to become stronger, while others do lifting for a competition such as powerlifting. Powerlifting is a strength sport that has been part of the Olympics Games since 1896 and consists of three attempts to achieve the maximum weight on each of the three lifts: squat, bench press, and deadlift. During these competitions, some participants lift heavier weights than others. So we wonder, what accounts for this difference in a competitor’s performance? Could it be merely because of biological factors? Or are there any other factors that might impact a person’s ability to lift a certain weight?"
+  },
+  {
+    "objectID": "posts/data_projects/depression_prediction/index.html",
+    "href": "posts/data_projects/depression_prediction/index.html",
+    "title": "Predicting Depression: An evaluation of the impact of Poverty & Physical Activity",
+    "section": "",
+    "text": "A collaborative project, our primary objective is to explore the variables related to depression by specifically looking at an individual’s physical activity levels and the socioeconomic conditions of participants. The former will help our team identify if physical activity promotes a healthier mind, while the latter variable will help identify a trend on if and how financial situations impact one’s mental health. In sum, our final goal is to better understand the relationship between these factors so as to identify potential risk factors or protective factors that could help indicate mental health outcomes."
+  },
+  {
+    "objectID": "posts/cs_projects/ngon_game/index.html",
+    "href": "posts/cs_projects/ngon_game/index.html",
+    "title": "Ngon Game",
+    "section": "",
+    "text": "Ngon is an interactive, multi-level game that invites users to play and learn more about Vietnamese cuisine at the same time. Using Tkinter to create its Graphic User Interface program, Ngon offers users a tailored experience by letting them create their own user name and choose their own level. A unique Vietnamese dish unraveled to users at every level, Ngon gives users information about the dish (its ingredients as well as its historical background) before taking them to the game screen, in which they must click on the correct icons of ingredients among many flying across the screen to win."
   },
   {
     "objectID": "index.html",

@@ -7,6 +7,10 @@ categories:
   - R
   - Logistical Regression
   - Social Equity
+website: 
+  navbar:
+      background: dark
+      search: true
 about: 
   template: solana
   image: thumbnail.png

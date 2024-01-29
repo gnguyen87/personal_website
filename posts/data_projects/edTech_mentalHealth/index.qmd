@@ -8,6 +8,10 @@ categories:
   - Full Stack Analysis
   - Education
   - Tech
+website: 
+  navbar:
+      background: dark
+      search: true
 about: 
   template: solana
   image: thumbnail.png

@@ -15,7 +15,10 @@ website:
             href: data.qmd
           - text: Computer Science
             href: cs.qmd
-    right:
+      - icon: bar-chart
+        text: Tidy Tuesdays
+        href: tidytuesdays.qmd
+    right: 
       - icon: github
         href: https://github.com/gnguyen87
       - icon: linkedin

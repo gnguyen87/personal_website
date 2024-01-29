@@ -8,6 +8,10 @@ image: thumbnail.png
 categories: 
   - Java
   - Game
+website: 
+  navbar:
+      background: dark
+      search: true
 about:
   template: solana
   image: thumbnail.png

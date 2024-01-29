@@ -1,0 +1,22 @@
+---
+title: "My Tidy Tuesdays!"
+website: 
+  navbar:
+      background: dark
+      search: true
+listing:
+  contents:
+    - "posts/tidy_tuesdays"
+  feed: true
+  fields: [image, date, title, author, categories]
+  type: default
+  categories: true
+  table-hover: true
+  sort-ui: true
+  filter-ui: true
+  sort: "date desc"
+---
+
+Besides all coursework projects, I endeavor to participate in *Tidy Tuesday*, a weekly data analysis project in the R programming language. It's part of the broader #TidyTuesday initiative, which was started by the R4DS (R for Data Science) .
+
+By being part of this online learning community, I am constantly enriching myself in new visualizations and data narratives while being updated on the current social, economic, and political landscape!
