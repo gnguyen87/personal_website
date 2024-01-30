@@ -10,16 +10,16 @@
     ]
   },
   {
-    "listing": "/tidytuesdays.html",
-    "items": [
-      "/posts/tidy_tuesdays/uk_ed/index.html"
-    ]
-  },
-  {
     "listing": "/cs.html",
     "items": [
       "/posts/cs_projects/pokemon/index.html",
       "/posts/cs_projects/ngon_game/index.html"
+    ]
+  },
+  {
+    "listing": "/tidytuesdays.html",
+    "items": [
+      "/posts/tidy_tuesdays/uk_ed/index.html"
     ]
   }
 ]
