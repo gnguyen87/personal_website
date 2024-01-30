@@ -271,7 +271,7 @@ server <- function(input, output) {
             x = "Achieve Proportion") +
       scale_fill_brewer()+
       theme(plot.title = element_text(vjust = -1)) +
-      theme_minimal() +
+      theme_customization +
       theme(plot.title = element_text(size = 14, face = "bold"),
             plot.subtitle = element_text(size = 10),
             text = element_text(size = 12, vjust = 1))
