@@ -20,7 +20,7 @@ about:
       href: mailto:n.anhnguyen.work@gmail.com
     - icon: file-earmark-person
       text: Resume
-      href: https://drive.google.com/file/d/1xmi8TFMCULOoklCr1RH6QN7n0QST1dUZ/view?usp=sharing
+      href: https://drive.google.com/file/d/1ssOpCaTfVfDVS5t6pBnmXhNfcJ69dbsB/view?usp=sharing
       
 comments: false
 ---
