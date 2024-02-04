@@ -12,11 +12,12 @@ about:
   links: 
     - icon: link-45deg
       text: Website
-      href: https://lnkd.in/gHYk_FZF
+      href: https://milnel2.github.io/blocks4alliOS/
     - icon: appstore
       text: AppStore
-      href: https://lnkd.in/gRMtu7vZ
+      href: https://apps.apple.com/zw/app/blocksforall/id1446492589
 ---
+
 # Research Overview
 
 In the summer of 2023, I was chosen to be Professor Lauren Milne's research team of 5 to develop a new iteration of *Blocks4All --- a block-based programming environment designed for children with low vision and mobility impairments*. Part of the development team, we translate our research findings, both from Blocks4All, other commerical/accessible educational technology (Scratch, Torino, and TIP-toy) and accessible design frameworks, into child-friendly Help, Settings, and Robot Pairing screens in Figma (mock-ups) & Swift (iPad App).
@@ -34,3 +35,5 @@ We got to present our summer research at Macalester College's MacFest along a hu
 ## Blocks4All
 
 Blocks4All is a block-based programming environment designed for children with low vision and mobility impairments. It's free and available on iPad, and it is compatible with almost all Switch devices via iOs Switch Control and Voice Over technology
+
+![](images/blocks4all_website.png)
