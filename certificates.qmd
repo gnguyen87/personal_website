@@ -1,0 +1,22 @@
+---
+title: "Certificates and Courses Completed"
+website: 
+  navbar:
+      background: dark
+      search: true
+listing:
+  contents:
+    - "posts/certificates"
+  feed: true
+  fields: [image, date, title, author, categories]
+  type: default
+  categories: true
+  table-hover: true
+  sort-ui: true
+  filter-ui: true
+  sort: "date desc"
+---
+
+To stay on par with current industry standards, I continuously self-teach by taking online courses on the latest data and analytics engineering tools and topics.
+
+Below details my trajectory of all courses and certificates I have completed and achieved so far!

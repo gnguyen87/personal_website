@@ -1,0 +1,52 @@
+---
+title: "IBM"
+author: Na Nguyen
+date: "June 12, 2024"
+website: 
+  navbar:
+      background: dark
+      search: true
+image: dbt.png
+categories: 
+  - Analytics Engineering
+
+about: 
+  template: marquee
+  image: dbt.png
+---
+
+# IBM Introduction to Data Engineering
+
+Course Objectives:
+
+-   List basic skills required for an entry-level data engineering role
+
+-   Discuss various stages and concepts in the data engineering lifecycle.
+
+-   Describe data engineering technologies such as Relational Databases, NoSQL Data Stores, and Big Data Engines.
+
+-   Summarize concepts in data security, governance, and compliance.
+
+# ETL and Data Pipelines with Shell, Airflow and Kafka (ongoing)
+
+Course Objectives:
+
+-   Describe and contrast Extract, Transform, Load (ETL) processes.
+
+-   Explain batch vs concurrent modes of execution.
+
+-   Implement ETL workflow through bash and Python functions.
+
+-   Describe data pipeline components, processes, tools, and technologies.
+
+Skills acquired:
+
+-   [Extract Transform and Load (ETL)]{.underline}
+
+-   [Data Engineer]{.underline}
+
+-   [Apache Kafka]{.underline}
+
+-   [Apache Airflow]{.underline}
+
+-   [Data Pipelines]{.underline}

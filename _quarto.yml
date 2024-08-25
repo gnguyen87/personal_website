@@ -23,6 +23,9 @@ website:
         menu:
           - text: Blocks4All
             href: blocks4all.qmd
+      - icon: file-certificate
+        text: Certificates
+        href: certificates.qmd
     right: 
       - icon: github
         href: https://github.com/gnguyen87

@@ -1,0 +1,53 @@
+---
+title: "dbt: Data Build Tool"
+author: Na Nguyen
+date: "June 12, 2024"
+website: 
+  navbar:
+      background: dark
+      search: true
+image: dbt.png
+categories: 
+  - Analytics Engineering
+
+about: 
+  template: marquee
+  image: dbt.png
+---
+
+# dbt
+
+dbt (data build tool) is a popular open-source tool that enables data analysts and engineers to transform data in their data warehouse using SQL. It simplifies the process of building, testing, and maintaining data transformation pipelines, making it easier to create and manage data models.
+
+# dbt Fundamentals
+
+Course Description: Learn the foundational steps of transforming data in dbt Cloud. Start by connecting dbt Cloud to a data warehouse and Git repository, then explore key concepts like modeling, sources, testing, documentation, and deployment. Get hands-on by building a model and running tests in dbt Cloud. Course duration is approximately 5 hours.
+
+[Certifcate](https://credentials.getdbt.com/37c40248-d8de-4f28-be10-e72ee7ced572)
+
+![](dbt_fundamentals.png)
+
+# Jinja, Macro, and Packages
+
+Course Description: Extend the functionality of dbt with Jinja/macros and leverage models and macros from packages.
+
+![](jinja.png)
+
+# Analyses and Seeds
+
+Course Description: Leverage analyses for ad hoc queries with dbt code and seeds for incorporating version controlled CSV data in your project.
+
+![](analyses.png)
+# Advanced Testing (ongoing)
+
+Learn more about the theory of data testing and the practice of creating custom generic tests, leveraging tests in packages, and applying test configurations. (approximately 4 hours).
+
+# Advanced Materialization (ongoing)
+
+Learn about the advanced materializations that are built into dbt Core - ephemeral models, incremental models, and snapshots. Approximately two hours.
+
+# Refactoring SQL for Modularity (ongoing)
+
+Migrate legacy code into modular dbt data models with guidance from dbt Labs experts. Port stored procedures or SQL scripts into your dbt cloud project for efficient and scalable transformations.
+
+
