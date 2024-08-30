@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Na Nguyen, Jordy Marin Urbina">
-<meta name="dcterms.date" content="2023-04-21">
+<meta name="author" content="Na Nguyen">
+<meta name="dcterms.date" content="2024-06-12">
 
-<title>Na Nguyen - Are Weightlifting Contests…Fair?</title>
+<title>Na Nguyen - dbt: Data Build Tool</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -72,7 +72,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="../../../styles.css">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -157,52 +157,80 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+  <ul>
+  <li><a href="#dbt" id="toc-dbt" class="nav-link active" data-scroll-target="#dbt">dbt</a></li>
+  <li><a href="#dbt-fundamentals" id="toc-dbt-fundamentals" class="nav-link" data-scroll-target="#dbt-fundamentals">dbt Fundamentals</a></li>
+  <li><a href="#jinja-macro-and-packages" id="toc-jinja-macro-and-packages" class="nav-link" data-scroll-target="#jinja-macro-and-packages">Jinja, Macro, and Packages</a></li>
+  <li><a href="#analyses-and-seeds" id="toc-analyses-and-seeds" class="nav-link" data-scroll-target="#analyses-and-seeds">Analyses and Seeds</a></li>
+  <li><a href="#advanced-materialization-ongoing" id="toc-advanced-materialization-ongoing" class="nav-link" data-scroll-target="#advanced-materialization-ongoing">Advanced Materialization (ongoing)</a></li>
+  <li><a href="#refactoring-sql-for-modularity-ongoing" id="toc-refactoring-sql-for-modularity-ongoing" class="nav-link" data-scroll-target="#refactoring-sql-for-modularity-ongoing">Refactoring SQL for Modularity (ongoing)</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
-<div class="quarto-about-solana column-body content">
-  <div class="about-entity">
-    <div class="entity-contents">
-      <header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-about-marquee content">
+  <div class="about-image-container">
+    <img src="dbt.png" class="about-image " style="width: 100%;">
+  </div>
+  <div class="about-contents">
+    <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Are Weightlifting Contests…Fair?</h1>
+<h1 class="title">dbt: Data Build Tool</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">R</div>
-    <div class="quarto-category">Linear Regression</div>
-    <div class="quarto-category">Health</div>
+    <div class="quarto-category">Analytics Engineering</div>
   </div>
   </div>
 <div class="quarto-title-meta">
     <div>
     <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
-             <p>Na Nguyen, Jordy Marin Urbina </p>
+             <p>Na Nguyen </p>
           </div>
   </div>
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">April 21, 2023</p>
+      <p class="date">June 12, 2024</p>
     </div>
   </div>
   </div>
-</header> <div class="about-links">
-  <a href="https://gnguyen87.github.io/weightlift_success/" class="about-link" rel="" target="">
-    <i class="bi bi-link-45deg"></i>
-     <span class="about-link-text">Website</span>
-  </a>
-  <a href="https://github.com/gnguyen87/weightlift_success" class="about-link" rel="" target="">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text">Github</span>
-  </a>
-</div>
-      <div class="about-contents"><main class="content" id="quarto-document-content">
-<p>You may have probably seen people lifting different weights in the gym. But why do people even lift? There are numerous reasons for lifting but one of the most common reasons is to become stronger, while others do lifting for a competition such as powerlifting. Powerlifting is a strength sport that has been part of the Olympics Games since 1896 and consists of three attempts to achieve the maximum weight on each of the three lifts: squat, bench press, and deadlift. During these competitions, some participants lift heavier weights than others. So we wonder, what accounts for this difference in a competitor’s performance? Could it be merely because of biological factors? Or are there any other factors that might impact a person’s ability to lift a certain weight?</p>
+</header> <main class="content" id="quarto-document-content">
+
+<section id="dbt" class="level1">
+<h1>dbt</h1>
+<p>dbt (data build tool) is a popular open-source tool that enables data analysts and engineers to transform data in their data warehouse using SQL. It simplifies the process of building, testing, and maintaining data transformation pipelines, making it easier to create and manage data models.</p>
+</section>
+<section id="dbt-fundamentals" class="level1">
+<h1>dbt Fundamentals</h1>
+<p>Course Description: Learn the foundational steps of transforming data in dbt Cloud. Start by connecting dbt Cloud to a data warehouse and Git repository, then explore key concepts like modeling, sources, testing, documentation, and deployment. Get hands-on by building a model and running tests in dbt Cloud. Course duration is approximately 5 hours.</p>
+<p><a href="https://credentials.getdbt.com/37c40248-d8de-4f28-be10-e72ee7ced572">Certifcate</a></p>
+<p><img src="dbt_fundamentals.png" class="img-fluid"></p>
+</section>
+<section id="jinja-macro-and-packages" class="level1">
+<h1>Jinja, Macro, and Packages</h1>
+<p>Course Description: Extend the functionality of dbt with Jinja/macros and leverage models and macros from packages.</p>
+<p><img src="jinja.png" class="img-fluid"></p>
+</section>
+<section id="analyses-and-seeds" class="level1">
+<h1>Analyses and Seeds</h1>
+<p>Course Description: Leverage analyses for ad hoc queries with dbt code and seeds for incorporating version controlled CSV data in your project.</p>
+<p><img src="analyses.png" class="img-fluid"> # Advanced Testing (ongoing)</p>
+<p>Learn more about the theory of data testing and the practice of creating custom generic tests, leveraging tests in packages, and applying test configurations. (approximately 4 hours).</p>
+</section>
+<section id="advanced-materialization-ongoing" class="level1">
+<h1>Advanced Materialization (ongoing)</h1>
+<p>Learn about the advanced materializations that are built into dbt Core - ephemeral models, incremental models, and snapshots. Approximately two hours.</p>
+</section>
+<section id="refactoring-sql-for-modularity-ongoing" class="level1">
+<h1>Refactoring SQL for Modularity (ongoing)</h1>
+<p>Migrate legacy code into modular dbt data models with guidance from dbt Labs experts. Port stored procedures or SQL scripts into your dbt cloud project for efficient and scalable transformations.</p>
 
 
-</main></div>
-    </div>
-    <img src="thumbnail.png" class="about-image
-  rounded " style="width: 15em;">
+</section>
+</main> 
   </div>
 </div>
  <!-- /main -->

@@ -12,10 +12,12 @@ categories:
 
 about: 
   template: marquee
-  image: dbt.png
+  image: IBM_logo.png
 ---
 
 # IBM Introduction to Data Engineering
+
+![](Coursera JYO62PT1FO1G.pdf)
 
 Course Objectives:
 
