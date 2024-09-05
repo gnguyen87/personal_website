@@ -11,7 +11,7 @@
     "href": "certificates.html",
     "title": "Certificates and Courses Completed",
     "section": "",
-    "text": "To stay on par with current industry standards, I continuously self-teach by taking online courses on the latest data and analytics engineering tools and topics.\nBelow details my trajectory of all courses and certificates I have completed and achieved so far!\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\ndbt: Data Build Tool\n\n\n\n\n\n\nAnalytics Engineering\n\n\n\n\n\n\nJun 12, 2024\n\n\nNa Nguyen\n\n\n\n\n\n\n\n\n\n\n\n\nIBM\n\n\n\n\n\n\nAnalytics Engineering\n\n\n\n\n\n\nJun 12, 2024\n\n\nNa Nguyen\n\n\n\n\n\n\nNo matching items"
+    "text": "To stay on par with current industry standards, I continuously self-teach by taking online courses on the latest data and analytics engineering tools and topics.\nBelow details my trajectory of all courses and certificates I have completed and achieved so far!\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\ndbt: Data Build Tool\n\n\n\n\n\n\nAnalytics Engineering\n\n\n\n\n\n\nJun 12, 2024\n\n\nNa Nguyen\n\n\n\n\n\n\n\n\n\n\n\n\nIBM\n\n\n\n\n\n\nData Engineering\n\n\n\n\n\n\nJun 12, 2024\n\n\nNa Nguyen\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
@@ -88,7 +88,7 @@
     "href": "posts/certificates/IBM/index.html",
     "title": "IBM",
     "section": "",
-    "text": "IBM Introduction to Data Engineering\n\nCourse Objectives:\n\nList basic skills required for an entry-level data engineering role\nDiscuss various stages and concepts in the data engineering lifecycle.\nDescribe data engineering technologies such as Relational Databases, NoSQL Data Stores, and Big Data Engines.\nSummarize concepts in data security, governance, and compliance.\n\n\n\nETL and Data Pipelines with Shell, Airflow and Kafka (ongoing)\nCourse Objectives:\n\nDescribe and contrast Extract, Transform, Load (ETL) processes.\nExplain batch vs concurrent modes of execution.\nImplement ETL workflow through bash and Python functions.\nDescribe data pipeline components, processes, tools, and technologies.\n\nSkills acquired:\n\nExtract Transform and Load (ETL)\nData Engineer\nApache Kafka\nApache Airflow\nData Pipelines"
+    "text": "IBM Introduction to Data Engineering\n\nCourse Objectives:\n\nList basic skills required for an entry-level data engineering role\nDiscuss various stages and concepts in the data engineering life cycle.\nDescribe data engineering technologies such as Relational Databases, NoSQL Data Stores, and Big Data Engines.\nSummarize concepts in data security, governance, and compliance.\n\n\n\nETL and Data Pipelines with Shell, Airflow and Kafka (ongoing)\nCourse Objectives:\n\nDescribe and contrast Extract, Transform, Load (ETL) processes.\nExplain batch vs concurrent modes of execution.\nImplement ETL workflow through bash and Python functions.\nDescribe data pipeline components, processes, tools, and technologies.\n\nSkills acquired:\n\nExtract Transform and Load (ETL)\nData Engineer\nApache Kafka\nApache Airflow\nData Pipelines"
   },
   {
     "objectID": "posts/cs_projects/ngon_game/index.html",
@@ -112,18 +112,11 @@
     "text": "Education\nMacalester College | St. Paul MN  B.A in Data Science and International Studies | Expected Grad: Spring’25"
   },
   {
-    "objectID": "index.html#experience-recent",
-    "href": "index.html#experience-recent",
+    "objectID": "index.html#experience",
+    "href": "index.html#experience",
     "title": "Welcome!",
-    "section": "Experience (Recent)",
-    "text": "Experience (Recent)\nData Engineer Associate (now) | Education Analytics | Madison, WI  Intermediate Data Science Preceptor (now) | Macalester College | St. Paul, MN  Research Analyst | Smart North | St. Paul, MN  Research Engineer | Macalester College | St. Paul, MN"
-  },
-  {
-    "objectID": "index.html#community",
-    "href": "index.html#community",
-    "title": "Welcome!",
-    "section": "Community",
-    "text": "Community\nWomen In Tech: The Future is Feminine Volunteer | Smart North | St. Paul MN  President | Vietnamese Cultural Organization | St. Paul MN"
+    "section": "Experience",
+    "text": "Experience\nData Engineer Associate (now) | Education Analytics | Madison, WI  Intermediate Data Science Preceptor (now) | Macalester College | St. Paul, MN  Data Research Analyst | Smart North | St. Paul, MN  Research Engineer | Macalester College | St. Paul, MN"
   },
   {
     "objectID": "cs.html",

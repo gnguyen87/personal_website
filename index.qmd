@@ -20,7 +20,7 @@ about:
       href: mailto:n.anhnguyen.work@gmail.com
     - icon: file-earmark-person
       text: Resume
-      href: https://drive.google.com/file/d/1pd2G74tz7lOQRpDT8zkPl2SX6vyqNhr7/view?usp=share_link
+      href: https://drive.google.com/file/d/11EbhfuVzJdqtE7oejK3hat2aYHec18nZ/view?usp=sharing
       
 comments: false
 ---
@@ -33,10 +33,8 @@ Explore my portfolio where I am constantly investigating how education, health, 
 
 Macalester College \| St. Paul MN <br> B.A in Data Science and International Studies \| Expected Grad: Spring'25
 
-## Experience (Recent)
+## Experience
 
-**Data Engineer Associate** (now) \| Education Analytics \| Madison, WI <br> I**ntermediate Data Science Preceptor** (now) \| Macalester College \| St. Paul, MN <br> Research Analyst \| Smart North \| St. Paul, MN <br> Research Engineer \| Macalester College \| St. Paul, MN
+**Data Engineer Associate** (now) \| Education Analytics \| Madison, WI <br> **Intermediate Data Science Preceptor** (now) \| Macalester College \| St. Paul, MN <br> Data Research Analyst \| Smart North \| St. Paul, MN <br> Research Engineer \| Macalester College \| St. Paul, MN
 
-## Community
 
-Women In Tech: The Future is Feminine Volunteer \| Smart North \| St. Paul MN <br> President \| Vietnamese Cultural Organization \| St. Paul MN

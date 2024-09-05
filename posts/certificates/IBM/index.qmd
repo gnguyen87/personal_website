@@ -6,13 +6,13 @@ website:
   navbar:
       background: dark
       search: true
-image: dbt.png
+image: ibm_logo.png
 categories: 
-  - Analytics Engineering
+  - Data Engineering
 
 about: 
   template: marquee
-  image: IBM_logo.png
+  image: ibm_logo.png
 ---
 
 # IBM Introduction to Data Engineering
@@ -23,7 +23,7 @@ Course Objectives:
 
 -   List basic skills required for an entry-level data engineering role
 
--   Discuss various stages and concepts in the data engineering lifecycle.
+-   Discuss various stages and concepts in the data engineering life cycle.
 
 -   Describe data engineering technologies such as Relational Databases, NoSQL Data Stores, and Big Data Engines.
 
