@@ -55,7 +55,6 @@ df <- wheels %>%
   
 ```
 
-
 ## Plot
 
 ```{r}
@@ -75,4 +74,3 @@ plot_ly(df, x = ~seating_capacity, y = ~hourly_capacity, text = ~paste("Name:", 
 
 
 ```
-
