@@ -1,0 +1,78 @@
+---
+title: "Tidy Tuesday State Fair"
+author: "Na Nguyen"
+date: "2024-09-03"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+install.packages(c("cowplot", "googleway", "ggplot2", "ggrepel", 
+"ggspatial", "libwgeom", "sf", "rnaturalearth", "rnaturalearthdata"))
+
+library(rnaturalearth)
+library(rnaturalearthdata)
+library(ggplot2)
+library(plotly)
+library(tidyverse)
+library(gcookbook)
+library(scales)
+library(cowplot)
+library(maps)
+
+options(repr.plot.width=15, repr.plot.height=10)
+```
+
+## Loading Data
+
+```{r}
+
+wheels <- read.csv("wheels.csv")
+geo<-read.csv("https://raw.githubusercontent.com/plotly/datasets/master/2014_world_gdp_with_codes.csv")
+
+```
+
+## Data Wrangling
+
+```{r}
+df <- wheels %>% 
+  mutate(country = case_when(
+    country == 'UK' ~ 'United Kingdom',
+    country == 'USA' ~ 'United States',
+    country == 'Phillippines' ~ 'Philippines',
+    country == 'S Korea' ~ 'Korea, South',
+    country == 'Tailand' ~ 'Thailand',
+    country == 'UAE' ~ 'United Arab Emirates',
+    country == 'Dubai' ~ 'United Arab Emirates',
+    .default = country
+  ),
+      climate_controlled = case_when(
+    climate_controlled == 'yes' ~ 'Yes',
+    .default = climate_controlled
+    )) %>% 
+  drop_na(climate_controlled) %>% 
+  inner_join(geo, by = c('country' = 'COUNTRY')) 
+  
+```
+
+
+## Plot
+
+```{r}
+
+plot_ly(df, x = ~seating_capacity, y = ~hourly_capacity, text = ~paste("Name:", name, "<br>","Country:", country,"<br>","Diameter:", diameter, "<br>","Height:", height), type = 'scatter', mode = 'markers', size = ~diameter, color = ~climate_controlled, colors = c('#8B0000','#008000'),
+        marker = list(opacity = 0.5, sizemode = 'diameter')) %>% 
+  layout(title = "Climate Controlled Ferris Wheels Around The World (by capacity and size)",
+         xaxis = list(
+           zerolinecolor = '#ffff',
+           zerolinewidth = 2,
+           gridcolor = 'ffff'),
+         yaxis = list(
+           zerolinecolor = '#ffff',
+           zerolinewidth = 2,
+           gridcolor = 'ffff') )
+
+
+
+```
+
