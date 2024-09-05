@@ -36,5 +36,3 @@ Macalester College \| St. Paul MN <br> B.A in Data Science and International Stu
 ## Experience
 
 **Data Engineer Associate** (now) \| Education Analytics \| Madison, WI <br> **Intermediate Data Science Preceptor** (now) \| Macalester College \| St. Paul, MN <br> Data Research Analyst \| Smart North \| St. Paul, MN <br> Research Engineer \| Macalester College \| St. Paul, MN
-
-

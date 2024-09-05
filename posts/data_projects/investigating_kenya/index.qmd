@@ -1,0 +1,25 @@
+---
+title: "Investigating Kenya"
+author: Na Nguyen
+date: "May 5, 2024"
+image: thumbnail.png
+categories: 
+  - R
+  - Machine Learning
+  - Unsupervised Learning
+Ibsite: 
+  navbar:
+      background: dark
+      search: true
+about: 
+  template: solana
+  image: thumbnail.png
+  links: 
+    - icon: github
+      text: Github
+      href: https://github.com/gnguyen87/unsupervised_kenyan_counties
+---
+
+In this paper, I conducted 3 unsupervised learning analysis methods o uncover significant agricultural, demographic, and geographic patterns across 41 counties in Kenya.
+
+From my findings through investigating the first 2 PCs and my Hierarchical Clustering Model, I observed that my data exhibits high variability, high separatedness, and rather complex patterns. This indicate that I might need to retain more variability to capture the nuances in the data. Therefore, I would suggest moving forward with 4 PCs, with which I will retain 75% of my original information.From my findings through investigating the first 2 PCs and my Hierarchical Clustering Model, I observed that my data exhibits high variability, high separatedness, and rather complex patterns. This indicate that I might need to retain more variability to capture the nuances in the data. Therefore, I would suggest moving forward with 4 PCs, with which I will retain 75% of my original information.
