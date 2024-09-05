@@ -6,7 +6,7 @@ website:
   navbar:
       background: dark
       search: true
-image: thumbnail.png
+image: image.png
 categories: 
   - R
   - Interactive Viz
@@ -14,7 +14,7 @@ categories:
 
 about: 
   template: marquee
-  image: thumbnail.png
+  image: image.png
   links: 
     - icon: link-45deg
       text: Website
