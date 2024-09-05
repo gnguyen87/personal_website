@@ -101,6 +101,15 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     "search-label": "Search"
   }
 }</script>
+<link href="../../../site_libs/htmltools-fill-0.5.8.1/fill.css" rel="stylesheet">
+<script src="../../../site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
+<script src="../../../site_libs/plotly-binding-4.10.4/plotly.js"></script>
+<script src="../../../site_libs/typedarray-0.1/typedarray.min.js"></script>
+<script src="../../../site_libs/jquery-3.5.1/jquery.min.js"></script>
+<link href="../../../site_libs/crosstalk-1.2.1/css/crosstalk.min.css" rel="stylesheet">
+<script src="../../../site_libs/crosstalk-1.2.1/js/crosstalk.min.js"></script>
+<link href="../../../site_libs/plotly-htmlwidgets-css-2.11.1/plotly-htmlwidgets.css" rel="stylesheet">
+<script src="../../../site_libs/plotly-main-2.11.1/plotly-latest.min.js"></script>
 
 
 <link rel="stylesheet" href="../../../styles.css">
@@ -196,10 +205,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
   <ul>
   <li><a href="#tidy-tuesday-2022-08-09" id="toc-tidy-tuesday-2022-08-09" class="nav-link active" data-scroll-target="#tidy-tuesday-2022-08-09">Tidy Tuesday, 2022-08-09</a></li>
-  <li><a href="#visualization" id="toc-visualization" class="nav-link" data-scroll-target="#visualization">Visualization</a></li>
   <li><a href="#data-preparation" id="toc-data-preparation" class="nav-link" data-scroll-target="#data-preparation">Data Preparation</a></li>
   <li><a href="#plot" id="toc-plot" class="nav-link" data-scroll-target="#plot">Plot</a></li>
-  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section"></a></li>
   </ul>
 </nav>
     </div>
@@ -237,10 +244,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="tidy-tuesday-2022-08-09" class="level1">
 <h1>Tidy Tuesday, <a href="https://github.com/rfordatascience/tidytuesday/tree/master/data/2022/2022-08-09">2022-08-09</a></h1>
 <p>Source: The&nbsp;<a href="https://github.com/rfordatascience/tidytuesday/blob/master/data/2022/2022-08-09/wheels.csv">dataset</a></p>
-</section>
-<section id="visualization" class="level1">
-<h1>Visualization</h1>
-<p><img src="image.png" class="img-fluid"></p>
 <p>To accommodate for large crowds at a state fair,&nbsp; we should expect its ferris wheel to be climate controlled. It seems like most large ferris wheels and/or large capacity ferris wheels tend to be climate controlled. It is interesting, though, that all observable “un-climate-controlled” ferris wheels (5) reside in the U.S. (4) and the U.K (1)&nbsp;</p>
 </section>
 <section id="data-preparation" class="level1">
@@ -306,9 +309,20 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a>           <span class="at">zerolinewidth =</span> <span class="dv">2</span>,</span>
 <span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>           <span class="at">gridcolor =</span> <span class="st">'ffff'</span>) )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-</section>
-<section id="section" class="level1">
-<h1></h1>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>plot</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Ignoring 14 observations</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: `line.width` does not currently support multiple values.
+Warning: `line.width` does not currently support multiple values.</code></pre>
+</div>
+<div class="cell-output-display">
+<div class="plotly html-widget html-fill-item" id="htmlwidget-af3354f2e8c18041851c" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-af3354f2e8c18041851c">{"x":{"visdat":{"109306ca3b771":["function () ","plotlyVisDat"]},"cur_data":"109306ca3b771","attrs":{"109306ca3b771":{"x":{},"y":{},"text":{},"mode":"markers","marker":{"opacity":0.5,"sizemode":"diameter"},"color":{},"size":{},"colors":["#8B0000","#008000"],"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"scatter"}},"layout":{"margin":{"b":40,"l":60,"t":25,"r":10},"title":"Climate Controlled Ferris Wheels Around The World (by capacity and size)","xaxis":{"domain":[0,1],"automargin":true,"zerolinecolor":"#ffff","zerolinewidth":2,"gridcolor":"ffff","title":"seating_capacity"},"yaxis":{"domain":[0,1],"automargin":true,"zerolinecolor":"#ffff","zerolinewidth":2,"gridcolor":"ffff","title":"hourly_capacity"},"hovermode":"closest","showlegend":true},"source":"A","config":{"modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false},"data":[{"x":[720,320,1600,144,240,216,144],"y":[2160,1280,4800,960,2057,648,864],"text":["Name: Chicago Wheel <br> Country: United States <br> Diameter: 75 <br> Height: 264","Name: Colossus <br> Country: United States <br> Diameter: 165 <br> Height: 180","Name: Great Wheel <br> Country: United Kingdom <br> Diameter: 270 <br> Height: 308","Name: Mickey's Fun Wheel <br> Country: United States <br> Diameter: 150 <br> Height: 160","Name: Navy Pier Ferris Wheel <br> Country: United States <br> Diameter: 140 <br> Height: 150","Name: Sky Scraper <br> Country: United States <br> Diameter: NA <br> Height: 150","Name: Wonder Wheel <br> Country: United States <br> Diameter: 135 <br> Height: 150"],"mode":"markers","marker":{"color":"rgba(139,0,0,1)","size":[10.785751702462022,24.929282346778415,41.430068098480874,22.572027239392352,21.000523834468307,null,20.214772132006285],"sizemode":"diameter","opacity":0.5,"line":{"color":"rgba(139,0,0,1)"}},"type":"scatter","name":"No","textfont":{"color":"rgba(139,0,0,1)","size":[10.785751702462022,24.929282346778415,41.430068098480874,22.572027239392352,21.000523834468307,null,20.214772132006285]},"error_y":{"color":"rgba(139,0,0,1)","width":[]},"error_x":{"color":"rgba(139,0,0,1)","width":[]},"line":{"color":"rgba(139,0,0,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":[252,1920,336,288,384,408,336,336,208,800,216,288,320,252,1440,336,240,480,336,784,400,252,480,432,300,384,420,384,336,216,384],"y":[1260,5760,1550,1440,1152,1440,3360,1680,832,1600,1296,1016,2742,1512,2273,2016,1107,1309,1680,1568,1600,1008,960,864,900,1536,840,768,1680,1296,768],"text":["Name: 360 Pensacola Beach <br> Country: United States <br> Diameter: NA <br> Height: 200","Name: Beijing Great Wheel <br> Country: China <br> Diameter: 642.7 <br> Height: 692.64","Name: Belfast Wheel <br> Country: Ireland <br> Diameter: NA <br> Height: 199.8","Name: Brighton Wheel <br> Country: United Kingdom <br> Diameter: 148 <br> Height: 160","Name: Changsha Ferris Wheel <br> Country: China <br> Diameter: 325 <br> Height: 394","Name: Diamond and Flower Ferris Wheel <br> Country: Japan <br> Diameter: 364.17 <br> Height: 384","Name: Eye of the Emirates <br> Country: United Arab Emirates <br> Diameter: NA <br> Height: 197","Name: Great Smoky Mountain Skywheel <br> Country: United States <br> Diameter: NA <br> Height: 200","Name: HEP Five Wheel <br> Country: Japan <br> Diameter: 246.06 <br> Height: 347.77","Name: London Eye <br> Country: United Kingdom <br> Diameter: 394 <br> Height: 443","Name: Mall of Asia Eye <br> Country: Philippines <br> Diameter: NA <br> Height: 180","Name: Miramar Ferris Wheel <br> Country: Taiwan <br> Diameter: 233 <br> Height: 316","Name: Moscow-850 <br> Country: Russia <br> Diameter: 70 <br> Height: 240","Name: Myrtle Beach Sky Wheel <br> Country: United States <br> Diameter: NA <br> Height: 187","Name: New York Wheel <br> Country: United States <br> Diameter: NA <br> Height: 630","Name: Niagara SkyWheel <br> Country: Canada <br> Diameter: 166.65 <br> Height: 175","Name: Observation Wheel Leeds <br> Country: United Kingdom <br> Diameter: NA <br> Height: 197","Name: Orlando Eye <br> Country: United States <br> Diameter: NA <br> Height: 400","Name: Seattle Great Wheel <br> Country: United States <br> Diameter: NA <br> Height: 175","Name: Singapore Flyer <br> Country: Singapore <br> Diameter: 492 <br> Height: 541","Name: Sky Wheel <br> Country: Taiwan <br> Diameter: NA <br> Height: 289","Name: SkyView <br> Country: United States <br> Diameter: NA <br> Height: 200","Name: Star of Nanchang <br> Country: China <br> Diameter: 504.9 <br> Height: 525","Name: Star of Puebla <br> Country: Mexico <br> Diameter: 229 <br> Height: 262","Name: Suzhou Ferris Wheel <br> Country: China <br> Diameter: 361 <br> Height: 394","Name: Technostar <br> Country: Japan <br> Diameter: 274 <br> Height: 279","Name: The Southern Star <br> Country: Australia <br> Diameter: NA <br> Height: 394","Name: Tianjin Eye <br> Country: China <br> Diameter: 361 <br> Height: 394","Name: Wheel of Brisbane <br> Country: Australia <br> Diameter: NA <br> Height: 200","Name: Wheel of Perth <br> Country: Australia <br> Diameter: NA <br> Height: 164","Name: Zhengzhou Ferris Wheel <br> Country: China <br> Diameter: 361 <br> Height: 394"],"mode":"markers","marker":{"color":"rgba(0,128,0,1)","size":[null,100,null,22.257726558407541,50.073336825563118,56.228915662650607,null,null,37.66788894709272,60.916710319539028,null,35.615505500261918,10,null,null,25.188580408590887,null,null,null,76.31744368779465,null,null,78.344683080146666,34.986904138292303,55.730749083289673,42.058669460450496,null,55.730749083289673,null,null,55.730749083289673],"sizemode":"diameter","opacity":0.5,"line":{"color":"rgba(0,128,0,1)"}},"type":"scatter","name":"Yes","textfont":{"color":"rgba(0,128,0,1)","size":[null,100,null,22.257726558407541,50.073336825563118,56.228915662650607,null,null,37.66788894709272,60.916710319539028,null,35.615505500261918,10,null,null,25.188580408590887,null,null,null,76.31744368779465,null,null,78.344683080146666,34.986904138292303,55.730749083289673,42.058669460450496,null,55.730749083289673,null,null,55.730749083289673]},"error_y":{"color":"rgba(0,128,0,1)","width":[]},"error_x":{"color":"rgba(0,128,0,1)","width":[]},"line":{"color":"rgba(0,128,0,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.20000000000000001,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
 
 
 </section>

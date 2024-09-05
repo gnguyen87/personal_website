@@ -15,22 +15,11 @@ categories:
 about: 
   template: marquee
   image: image.png
-  links: 
-    - icon: link-45deg
-      text: Website
-      href: https://opbfa1-anh-nguyen.shinyapps.io/UK_EduAttainment/
-    - icon: github
-      text: Github
-      href: https://github.com/gnguyen87/uk_edu
 ---
 
 # Tidy Tuesday, [2022-08-09](https://github.com/rfordatascience/tidytuesday/tree/master/data/2022/2022-08-09)
 
 Source: The [dataset](https://github.com/rfordatascience/tidytuesday/blob/master/data/2022/2022-08-09/wheels.csv)
-
-# Visualization
-
-![](image.png)
 
 To accommodate for large crowds at a state fair,  we should expect its ferris wheel to be climate controlled. It seems like most large ferris wheels and/or large capacity ferris wheels tend to be climate controlled. It is interesting, though, that all observable "un-climate-controlled" ferris wheels (5) reside in the U.S. (4) and the U.K (1) 
 
@@ -55,7 +44,7 @@ library(dplyr)
 
 Loading the Data
 
-```{r,  message=FALSE, warning =FALSE, results='hide', eval = FALSE}
+```{r,  message=FALSE, warning =FALSE, results='hide'}
 #| code-fold: true
 wheels <- read.csv("wheels.csv")
 geo<-read.csv("https://raw.githubusercontent.com/plotly/datasets/master/2014_world_gdp_with_codes.csv")
@@ -63,7 +52,7 @@ geo<-read.csv("https://raw.githubusercontent.com/plotly/datasets/master/2014_wor
 
 Cleaning Data
 
-```{r,  message=FALSE, warning =FALSE,  eval = FALSE  }
+```{r,  message=FALSE, warning =FALSE  }
 
 df <- wheels %>% 
   mutate(country = case_when(
@@ -86,7 +75,7 @@ df <- wheels %>%
 
 # Plot
 
-```{r, eval= FALSE}
+```{r}
 # Define UI for application that draws a histogram
 plot <- plot_ly(df, x = ~seating_capacity, y = ~hourly_capacity, text = ~paste("Name:", name, "<br>","Country:", country,"<br>","Diameter:", diameter, "<br>","Height:", height), type = 'scatter', mode = 'markers', size = ~diameter, color = ~climate_controlled, colors = c('#8B0000','#008000'),
         marker = list(opacity = 0.5, sizemode = 'diameter')) %>% 
@@ -102,4 +91,6 @@ plot <- plot_ly(df, x = ~seating_capacity, y = ~hourly_capacity, text = ~paste("
 
 ```
 
-# 
+```{r}
+plot
+```
