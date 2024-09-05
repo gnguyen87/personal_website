@@ -30,7 +30,7 @@ Source: The [dataset](https://github.com/rfordatascience/tidytuesday/blob/maste
 
 # Visualization
 
-To accommodate for large crowds at a state fair, we should expect its ferris wheel to be climate controlled. However, there seems to be no discernible difference between those that are climate-controlled and not across the world, irregardless of its capacity and size. It is interesting, though, that all observable "un-climate-controlled" ferris wheels (5) reside in the U.S. (4) and the U.K (1)
+To accommodate for large crowds at a state fair,  we should expect its ferris wheel to be climate controlled. It seems like most large ferris wheels and/or large capacity ferris wheels tend to be climate controlled. It is interesting, though, that all observable "un-climate-controlled" ferris wheels (5) reside in the U.S. (4) and the U.K (1) 
 
 # Data Preparation
 
@@ -47,6 +47,7 @@ library(gcookbook)
 library(scales)
 library(cowplot)
 library(maps)
+library(dplyr)
 
 ```
 
@@ -85,7 +86,7 @@ df <- wheels %>%
 
 ```{r, eval= FALSE}
 # Define UI for application that draws a histogram
-plot_ly(df, x = ~seating_capacity, y = ~hourly_capacity, text = ~paste("Name:", name, "<br>","Country:", country,"<br>","Diameter:", diameter, "<br>","Height:", height), type = 'scatter', mode = 'markers', size = ~diameter, color = ~climate_controlled, colors = c('#8B0000','#008000'),
+plot <- plot_ly(df, x = ~seating_capacity, y = ~hourly_capacity, text = ~paste("Name:", name, "<br>","Country:", country,"<br>","Diameter:", diameter, "<br>","Height:", height), type = 'scatter', mode = 'markers', size = ~diameter, color = ~climate_controlled, colors = c('#8B0000','#008000'),
         marker = list(opacity = 0.5, sizemode = 'diameter')) %>% 
   layout(title = "Climate Controlled Ferris Wheels Around The World (by capacity and size)",
          xaxis = list(
