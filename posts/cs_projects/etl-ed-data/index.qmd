@@ -1,0 +1,30 @@
+---
+title: "Education data ELT Pipeline"
+author: Na Nguyen 
+description: |
+    My first project complete automated ELT Pipeline project
+date: "September 11, 2024"
+image: image.png
+categories: 
+  - Python
+  - Data Engineering
+  - Apache Airflow
+  - dbt
+website: 
+  navbar:
+      background: dark
+      search: true
+about:
+  template: solana
+  image: image.png
+  links: 
+    - icon: github
+      text: Github
+      href: https://github.com/gnguyen87/ngon-game
+---
+
+Since the beginning of my internship as a *Data Engineer* at *Education Analytics*, I have become more and more interested in the world of DE. This is my first project in which I built a complete automated ELT pipeline. This pipeline involves a DAG on **Apache Airflow** set up to extract education data from Urban Institute's API, serialize the API's response into a JSON payload, as well as load the data into a **PostgresSQL Database** (DBeaver). It also entails desiging and modeling a dimensional data warehouse using **dbt**, transforming raw JSON data into clean, human-readable tables to support analytical queries, improving data accessibility for non-technical users downstream.
+
+This is part of my onboarding training designed by EA.
+
+# 

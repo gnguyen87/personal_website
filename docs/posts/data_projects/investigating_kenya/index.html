@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.553">
+<meta name="generator" content="quarto-1.4.555">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -21,6 +21,40 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -72,7 +106,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="../../../styles.css">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -107,7 +141,7 @@ ul.task-list li input[type="checkbox"] {
   </li>  
         <li>
     <a class="dropdown-item" href="../../../cs.html">
- <span class="dropdown-text">Computer Science</span></a>
+ <span class="dropdown-text">Data Engineering/Computer Science</span></a>
   </li>  
     </ul>
   </li>
@@ -157,12 +191,38 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+  <ul>
+  <li><a href="#exploring-kenya" id="toc-exploring-kenya" class="nav-link active" data-scroll-target="#exploring-kenya">Exploring Kenya</a></li>
+  <li><a href="#clustering-analysis" id="toc-clustering-analysis" class="nav-link" data-scroll-target="#clustering-analysis">Clustering analysis</a>
+  <ul class="collapse">
+  <li><a href="#k-means-clustering" id="toc-k-means-clustering" class="nav-link" data-scroll-target="#k-means-clustering">K-means Clustering</a></li>
+  <li><a href="#hierarchical-clustering" id="toc-hierarchical-clustering" class="nav-link" data-scroll-target="#hierarchical-clustering">Hierarchical Clustering</a></li>
+  </ul></li>
+  <li><a href="#dimension-reduction-analysis" id="toc-dimension-reduction-analysis" class="nav-link" data-scroll-target="#dimension-reduction-analysis">Dimension reduction analysis</a>
+  <ul class="collapse">
+  <li><a href="#the-features-of-the-first-2-pcs" id="toc-the-features-of-the-first-2-pcs" class="nav-link" data-scroll-target="#the-features-of-the-first-2-pcs">The features of the first 2 PCs</a></li>
+  <li><a href="#final-pcs-and-information-retained" id="toc-final-pcs-and-information-retained" class="nav-link" data-scroll-target="#final-pcs-and-information-retained">Final PCs and information retained</a></li>
+  </ul></li>
+  <li><a href="#code-and-plots" id="toc-code-and-plots" class="nav-link" data-scroll-target="#code-and-plots">Code and plots</a>
+  <ul class="collapse">
+  <li><a href="#data-import-and-cleaning" id="toc-data-import-and-cleaning" class="nav-link" data-scroll-target="#data-import-and-cleaning">Data import and cleaning</a></li>
+  <li><a href="#k-means" id="toc-k-means" class="nav-link" data-scroll-target="#k-means">K-means</a></li>
+  <li><a href="#hierarchical-clustering-1" id="toc-hierarchical-clustering-1" class="nav-link" data-scroll-target="#hierarchical-clustering-1">Hierarchical Clustering</a></li>
+  <li><a href="#pc" id="toc-pc" class="nav-link" data-scroll-target="#pc">PC</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
-<div class="quarto-about-solana column-body content">
-  <div class="about-entity">
-    <div class="entity-contents">
-      <header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-about-marquee content">
+  <div class="about-image-container">
+    <img src="thumbnail.png" class="about-image " style="width: 100%;">
+  </div>
+  <div class="about-contents">
+    <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Investigating Kenya</h1>
   <div class="quarto-categories">
@@ -185,21 +245,314 @@ ul.task-list li input[type="checkbox"] {
     </div>
   </div>
   </div>
-</header> <div class="about-links">
+</header> <main class="content" id="quarto-document-content">
+
+<section id="exploring-kenya" class="level1">
+<h1>Exploring Kenya</h1>
+<p>In this paper, I conducted 3 unsupervised learning analysis methods o uncover significant agricultural, demographic, and geographic patterns across 41 counties in Kenya.</p>
+<p>From my findings through investigating the first 2 PCs and my Hierarchical Clustering Model, I observed that my data exhibits high variability, high separatedness, and rather complex patterns. This indicate that I might need to retain more variability to capture the nuances in the data. Therefore, I would suggest moving forward with 4 PCs, with which I will retain 75% of my original information.From my findings through investigating the first 2 PCs and my Hierarchical Clustering Model, I observed that my data exhibits high variability, high separatedness, and rather complex patterns. This indicate that I might need to retain more variability to capture the nuances in the data. Therefore, I would suggest moving forward with 4 PCs, with which I will retain 75% of my original information.</p>
+</section>
+<section id="clustering-analysis" class="level1">
+<h1>Clustering analysis</h1>
+<section id="k-means-clustering" class="level2">
+<h2 data-anchor-id="k-means-clustering">K-means Clustering</h2>
+<p>When performing the K-means model, I first use a silhouette method that chooses K to maximize the distance betIen clusters and minimizes distance within clusters. This resulted in K equals to 9 clusters. This is a very large value for K given that my dataset only has 41 counties. This might be due to the small size of my dataset and data points being too Ill-separated. 9 clusters, consequently, cannot give us the best grouping and interpretability for my dataset. Rather, the algorithm might be creating clusters that capture noise or irrelevant patterns in the data, leading to inflated silhouette scores. Hence, given the size and context of the dataset , which results in difficulties when choosing K, and an unreasonable value of K using the silhouette method, I’ll continue my analysis using a hierarchical clustering method, which I believe is a better approach.</p>
+<p><img src="k-means.png" class="img-fluid"></p>
+</section>
+<section id="hierarchical-clustering" class="level2">
+<h2 data-anchor-id="hierarchical-clustering">Hierarchical Clustering</h2>
+<p>According to the hierarchical clustering model, roughly 4 natural clusters can be seen in the dendogram. 4 seems like an appropriate number of clusters given the fact that the dataset contains only 41 observations which could lead to clusters with roughly 10 counties each on average. Furthermore, maximum distance within clusters is 7.5, which is where cluster 2 (colored in purple) fuses, whereas other 3 clusters fuse at roughly a height of 6. Given the context of the data with maximum distance betIen any two pairs of counties in the dendogram being 10, the height of 6 allows to reduce amount of variability by 40 percent within each cluster. Thus, I examine 4 clusters in the dataset.</p>
+<p>Hierarchical clustering further allows for open and different interpretation of the dendogram while visualizing structures within the clusters. Cluster 3 (in green) includes sub-groups whereas cluster 2 (in purple) is fused at the highest point which shows greater variability within the cluster. I further used complete linkage since I want all my clusters to have similar characteristics.</p>
+<p><img src="hierarchical.png" class="img-fluid"></p>
+<p>The first cluster of counties is not a farming cluster and does not specialize in growing any crops. HoIver, this is the cluster with the highest average household size and contains the second highest number of counties (11). Therefore, it is probably a cluster of urban counties. Counties such as Mombasa, Garissa, Wajir, etc that are included in cluster 1 are all urban cities or towns.</p>
+<ul>
+<li>Cluster 2,3, and 4 are farming oriented counties that each specialize in a variety of crops.</li>
+<li>Cluster 2 is the smallest cluster with 4 counties and specializes in cashew, coconut and mango production.</li>
+<li>Cluster 3 is the largest cluster with 20 counties and primarily produce avocado along with tea and mango.</li>
+<li>Cluster 4 produces avocado, coffee, khatmiraa, macadamia, and tea.</li>
+<li>The male and female gender distribution is roughly the same across all clusters. HoIver, cluster 1 has the largest proportion of intersex population with cluster 2 and 3 having loIst proportion.</li>
+</ul>
+<p><img src="hier_cluster_k.png" class="img-fluid">Considering the size of my dataset, I would move forward with my Hierarchical Clustering Model with 4 clusters as the approach to identify similarities betIen each county in Kenya. Furthermore, as seen in the hierarchical clustering map, clusters of counties identified are also geographically close to each other. This approach gives meaningful clusters in terms of agricultural expertise and geographical locations (urban vs rural).</p>
+<p><img src="thumbnail.png" class="img-fluid"></p>
+</section>
+</section>
+<section id="dimension-reduction-analysis" class="level1">
+<h1>Dimension reduction analysis</h1>
+<section id="the-features-of-the-first-2-pcs" class="level2">
+<h2 data-anchor-id="the-features-of-the-first-2-pcs">The features of the first 2 PCs</h2>
+<ul>
+<li><img src="2pcs.png" class="img-fluid"><strong>Principle component 1</strong>: PC1 is driven by <code>Farming</code> (negative contribution) and crop features such as <code>Avocado</code> and <code>Coffee</code> (negative contribution), <code>Male</code>(positive contribution), and <code>Female</code> (negative contribution). When observing my score plot, there is a cluster of cities that have a large positive PC1 value betIen 2.5 and 5. For example, mandera, mombasa, turkana, marsabit, wajir, isiolo, and garissa. This means that these observations either have a large negative <code>Farming</code> PC value, a large negative crop feature PC value (e.g., <code>Avocado</code>, <code>Coffee</code>, and <code>Tea</code>), a large positive <code>Male</code> PC value, and/or a large negative <code>Female</code> PC value.</li>
+</ul>
+<p>These observations overlap with my findings from my K-Means model results, wherein cluster 1 include counties such as Mombasa, Garissa, Wajir,…- which are all urban cities or towns. In other words, this cluster of counties is not a farming cluster and does not specialize in growing any crops i.e.&nbsp;a large negative <code>Farming</code> and/or crop-related features PC value.</p>
+<ul>
+<li><img src="2pcs-1.png" class="img-fluid"><strong>Principle component 2</strong>: PC2 is driven by fruit/nut-bearing crop features such as <code>Citrus</code>, <code>Mango</code>, <code>Coconut</code>, and <code>Cashew Nut</code> (negative contribution). When observing my score plot, there is a cluster of cities that have a large negative PC2 value betIen -3 and -5. For example makueni, kilifi, kwale, and lamu. This means that these observations either have a large positive <code>Citrus</code>, <code>Mango</code>, <code>Coconut</code>, and/or <code>Cashew Nut</code> PC value.</li>
+</ul>
+<p><img src="pcs_cummulative_var.png" class="img-fluid"></p>
+<p><img src="4pcs-loadings.png" class="img-fluid"></p>
+<p>These observations overlap with my findings from my K-Means model results as Ill, wherein cluster 4 include counties such as Makueni, Kilifi, Kwale, and Lamu which are scounties that pecializes in cashew, coconut and mango production.</p>
+</section>
+<section id="final-pcs-and-information-retained" class="level2">
+<h2 data-anchor-id="final-pcs-and-information-retained">Final PCs and information retained</h2>
+<p>From my findings through investigating the first 2 PCs and my Hierarchical Clustering Model, I observed that my data exhibits high variability, high separatedness, and rather complex patterns. This indicate that I might need to retain more variability to capture the nuances in the data. Therefore, I would suggest moving forward with 4 PCs, with which I will retain 75% of my original information.</p>
+</section>
+</section>
+<section id="code-and-plots" class="level1">
+<h1>Code and plots</h1>
+<section id="data-import-and-cleaning" class="level2">
+<h2 data-anchor-id="data-import-and-cleaning">Data import and cleaning</h2>
+<div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># OPTIONAL: Set a more color blind friendly palette </span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">palette</span>(<span class="st">"Okabe-Ito"</span>)</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>scale_colour_discrete <span class="ot">&lt;-</span> <span class="cf">function</span>(...) <span class="fu">scale_colour_manual</span>(<span class="at">values =</span> <span class="fu">palette</span>())</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>scale_fill_discrete   <span class="ot">&lt;-</span> <span class="cf">function</span>(...) <span class="fu">scale_fill_manual</span>(<span class="at">values =</span> <span class="fu">palette</span>())</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span>opts_chunk<span class="sc">$</span><span class="fu">set</span>(</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>  <span class="at">collapse =</span> <span class="cn">TRUE</span>, </span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>  <span class="at">warning =</span> <span class="cn">FALSE</span>,</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>  <span class="at">message =</span> <span class="cn">FALSE</span>,</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>  <span class="at">fig.height =</span> <span class="fl">2.75</span>, </span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>  <span class="at">fig.width =</span> <span class="fl">4.25</span>,</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>  <span class="at">fig.env=</span><span class="st">'figure'</span>,</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>  <span class="at">fig.pos =</span> <span class="st">'h'</span>,</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>  <span class="at">fig.align =</span> <span class="st">'center'</span>)</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="co"># Loading necessary libraries</span></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(corrplot)</span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(factoextra)</span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidymodels)</span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(reshape2)</span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(sp)</span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(sf)</span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(plotly)</span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(cowplot)</span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a><span class="co"># Read in original data </span></span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a>kenya <span class="ot">&lt;-</span> <span class="fu">read.csv</span>(<span class="st">"kenya_census.csv"</span>)</span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a><span class="co"># Function to divide designated columns in a dataset by a total variable</span></span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a>per_capita <span class="ot">&lt;-</span> <span class="cf">function</span>(dataset, var, cols) {</span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a>  cols <span class="ot">&lt;-</span> dataset <span class="sc">%&gt;%</span> </span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a>    <span class="fu">select</span>(cols) <span class="sc">%&gt;%</span> </span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a>    <span class="fu">colnames</span>()</span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a>  dataset<span class="ot">&lt;-</span>dataset <span class="sc">%&gt;%</span> </span>
+<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a>      <span class="fu">mutate</span>(<span class="fu">across</span>(<span class="at">.cols =</span> cols, <span class="sc">~</span> . <span class="sc">/</span> {{var}}))</span>
+<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a>  <span class="fu">return</span>(dataset)</span>
+<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a>} </span>
+<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a><span class="co"># Applying function to create census data</span></span>
+<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a>kenya_census <span class="ot">&lt;-</span> <span class="fu">per_capita</span>(kenya, Population, <span class="dv">15</span><span class="sc">:</span><span class="dv">17</span>)</span>
+<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a>kenya_census <span class="ot">&lt;-</span> <span class="fu">per_capita</span>(kenya_census, NumberOfHouseholds, <span class="dv">5</span><span class="sc">:</span><span class="dv">14</span>)</span>
+<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a><span class="co"># Read in Kenya county shape files</span></span>
+<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a>kenya_sf <span class="ot">&lt;-</span> <span class="fu">read_sf</span>(<span class="st">"kenyan-counties"</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">COUNTY =</span> <span class="fu">str_to_loIr</span>(COUNTY))</span>
+<span id="cb1-49"><a href="#cb1-49" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-50"><a href="#cb1-50" aria-hidden="true" tabindex="-1"></a><span class="co"># Seeing unmatched pairs from 2 datasets</span></span>
+<span id="cb1-51"><a href="#cb1-51" aria-hidden="true" tabindex="-1"></a>kenya_census <span class="sc">%&gt;%</span> </span>
+<span id="cb1-52"><a href="#cb1-52" aria-hidden="true" tabindex="-1"></a>  <span class="fu">anti_join</span>(kenya_sf, <span class="at">by =</span> <span class="fu">c</span>(<span class="st">'County'</span> <span class="ot">=</span> <span class="st">'COUNTY'</span>))</span>
+<span id="cb1-53"><a href="#cb1-53" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-54"><a href="#cb1-54" aria-hidden="true" tabindex="-1"></a><span class="co"># Wrangling Kenya data and creating Kenya Map data by joining sf and census data</span></span>
+<span id="cb1-55"><a href="#cb1-55" aria-hidden="true" tabindex="-1"></a>kenya_map <span class="ot">&lt;-</span> kenya_sf <span class="sc">%&gt;%</span> </span>
+<span id="cb1-56"><a href="#cb1-56" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">COUNTY =</span> <span class="fu">case_when</span>(</span>
+<span id="cb1-57"><a href="#cb1-57" aria-hidden="true" tabindex="-1"></a>    COUNTY <span class="sc">==</span> <span class="st">"taita taveta"</span> <span class="sc">~</span><span class="st">"taita/taveta"</span>,</span>
+<span id="cb1-58"><a href="#cb1-58" aria-hidden="true" tabindex="-1"></a>    COUNTY <span class="sc">==</span> <span class="st">"tharaka"</span> <span class="sc">~</span> <span class="st">"tharaka-nithi"</span>  ,</span>
+<span id="cb1-59"><a href="#cb1-59" aria-hidden="true" tabindex="-1"></a>    COUNTY <span class="sc">==</span> <span class="st">"keiyo-marakIt"</span> <span class="sc">~</span><span class="st">"elgeyo/marakIt"</span> ,</span>
+<span id="cb1-60"><a href="#cb1-60" aria-hidden="true" tabindex="-1"></a>    <span class="cn">TRUE</span> <span class="sc">~</span> COUNTY</span>
+<span id="cb1-61"><a href="#cb1-61" aria-hidden="true" tabindex="-1"></a>  )) <span class="sc">%&gt;%</span> </span>
+<span id="cb1-62"><a href="#cb1-62" aria-hidden="true" tabindex="-1"></a>  <span class="fu">inner_join</span>(kenya_census, <span class="at">by =</span> <span class="fu">c</span>(<span class="st">'COUNTY'</span> <span class="ot">=</span> <span class="st">'County'</span>)) <span class="sc">%&gt;%</span> </span>
+<span id="cb1-63"><a href="#cb1-63" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(<span class="sc">-</span>Total, <span class="sc">-</span>Population, <span class="sc">-</span>NumberOfHouseholds)</span>
+<span id="cb1-64"><a href="#cb1-64" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-65"><a href="#cb1-65" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-66"><a href="#cb1-66" aria-hidden="true" tabindex="-1"></a>kenya_census <span class="ot">&lt;-</span> kenya_census <span class="sc">%&gt;%</span> </span>
+<span id="cb1-67"><a href="#cb1-67" aria-hidden="true" tabindex="-1"></a>  <span class="fu">column_to_rownames</span>(<span class="st">"County"</span>)</span>
+<span id="cb1-68"><a href="#cb1-68" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-69"><a href="#cb1-69" aria-hidden="true" tabindex="-1"></a>kenya_census <span class="ot">&lt;-</span> kenya_census <span class="sc">%&gt;%</span> </span>
+<span id="cb1-70"><a href="#cb1-70" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(<span class="sc">-</span>Total, <span class="sc">-</span>Population, <span class="sc">-</span>NumberOfHouseholds)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
+<p><br>
+<br>
+<br>
+<br>
+</p>
+</section>
+<section id="k-means" class="level2">
+<h2 data-anchor-id="k-means">K-means</h2>
+<p>Choosing K using silhouette and K-means Clustering</p>
+<div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Choosing K</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">fviz_nbclust</span>(<span class="fu">scale</span>(kenya_census), kmeans, <span class="at">method=</span><span class="st">'silhouette'</span>)</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="co"># K-means clustering</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">253</span>)</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>kmeans_model <span class="ot">&lt;-</span> <span class="fu">kmeans</span>(kenya_census, <span class="at">centers =</span> <span class="dv">9</span>, <span class="at">nstart =</span> <span class="dv">50</span>)</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Get the "the total within- cluster sum of squares"</span></span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a><span class="co"># This is the total squared distance of each case from its assigned centroid</span></span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>tot.within <span class="ot">&lt;-</span> kmeans_model<span class="sc">$</span>tot.withinss</span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a><span class="co"># Assign each sample case to a cluster</span></span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a><span class="co"># I typically want to store this in a new dataset so that the cluster assignments aren't</span></span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a><span class="co"># accidentally used as features in a later analysis!</span></span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a>cluster_kenya <span class="ot">&lt;-</span> kenya_census <span class="sc">%&gt;%</span></span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">kmeans_cluster_k =</span> kmeans_model<span class="sc">$</span>cluster)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
+</section>
+<section id="hierarchical-clustering-1" class="level2">
+<h2 data-anchor-id="hierarchical-clustering-1">Hierarchical Clustering</h2>
+<p>Creating hierarchical clustering and exploring characteristics of each cluster (k = 4)</p>
+<div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Creating Hierarchical Clustering Model</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>hier_model_1 <span class="ot">&lt;-</span> <span class="fu">hclust</span>(<span class="fu">dist</span>(<span class="fu">scale</span>(kenya_census)), <span class="at">method =</span> <span class="st">"complete"</span>)</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Creating Hierarchical Clustering Model Dendogram</span></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="fu">fviz_dend</span>(hier_model_1, <span class="at">k =</span> <span class="dv">4</span>, <span class="at">cex =</span> .<span class="dv">5</span>)</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Creating a column for the clusters and their mean respective to every feature in the dataset.</span></span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>kenya_census_1 <span class="ot">&lt;-</span> kenya_census <span class="sc">%&gt;%</span></span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">hier_cluster_k =</span> <span class="fu">as.factor</span>(<span class="fu">cutree</span>(hier_model_1, <span class="at">k =</span> <span class="dv">4</span>))) <span class="sc">%&gt;%</span></span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(hier_cluster_k) <span class="sc">%&gt;%</span></span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarize_all</span>(mean)</span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a><span class="co"># Bar plot showing the characteristics of each cluster.</span></span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a>kenya_census_1 <span class="sc">%&gt;%</span></span>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pivot_longer</span>(<span class="at">cols =</span> <span class="dv">2</span><span class="sc">:</span><span class="dv">15</span>, <span class="at">names_to =</span> <span class="st">"variables"</span>, <span class="at">values_to =</span> <span class="st">"values"</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>(<span class="fu">aes</span>(<span class="at">x=</span>hier_cluster_k, <span class="at">y =</span> values, <span class="at">fill =</span> hier_cluster_k )) <span class="sc">+</span></span>
+<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_bar</span>(<span class="at">stat=</span><span class="st">"identity"</span>) <span class="sc">+</span></span>
+<span id="cb3-18"><a href="#cb3-18" aria-hidden="true" tabindex="-1"></a>  <span class="fu">facet_wrap</span>(<span class="sc">~</span>variables,<span class="at">scales=</span><span class="st">'free'</span>) <span class="sc">+</span> </span>
+<span id="cb3-19"><a href="#cb3-19" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>()<span class="sc">+</span></span>
+<span id="cb3-20"><a href="#cb3-20" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">axis.text.x =</span> <span class="fu">element_text</span>(<span class="at">angle =</span> <span class="dv">90</span>))</span>
+<span id="cb3-21"><a href="#cb3-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-22"><a href="#cb3-22" aria-hidden="true" tabindex="-1"></a> kenya_census <span class="sc">%&gt;%</span></span>
+<span id="cb3-23"><a href="#cb3-23" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">hier_cluster_k =</span> <span class="fu">as.factor</span>(<span class="fu">cutree</span>(hier_model_1, <span class="at">k =</span> <span class="dv">4</span>))) <span class="sc">%&gt;%</span></span>
+<span id="cb3-24"><a href="#cb3-24" aria-hidden="true" tabindex="-1"></a>   <span class="fu">count</span>(hier_cluster_k)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
+<p>Kenya county clusters map by different types of clustering models</p>
+<div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># </span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Combine the plots using cowplot</span></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>combined_plot <span class="ot">&lt;-</span> <span class="fu">plot_grid</span>(</span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>  kenya_map <span class="sc">%&gt;%</span></span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>    <span class="fu">mutate</span>(<span class="at">kmeans_cluster =</span> <span class="fu">as.factor</span>(kmeans_model<span class="sc">$</span>cluster)) <span class="sc">%&gt;%</span></span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>    <span class="fu">ggplot</span>() <span class="sc">+</span></span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>    <span class="fu">geom_sf</span>(<span class="fu">aes</span>(<span class="at">color =</span> kmeans_cluster, <span class="at">fill =</span> Farming), <span class="at">linewidth =</span> <span class="fl">1.5</span>) <span class="sc">+</span></span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>    ggthemes<span class="sc">::</span><span class="fu">theme_map</span>() <span class="sc">+</span></span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>    <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Kenya Counties Clustered via K-Means Model (9 K)"</span>) <span class="sc">+</span></span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a>    <span class="fu">scale_fill_gradient</span>(<span class="at">low =</span> <span class="st">"white"</span>, <span class="at">high =</span> <span class="st">"darkred"</span>) <span class="sc">+</span></span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>    <span class="fu">theme</span>(<span class="at">legend.position =</span> <span class="st">"right"</span>,</span>
+<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a>          <span class="at">plot.title =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">17</span>),</span>
+<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a>          <span class="at">legend.title =</span>  <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">14</span>),</span>
+<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a>          <span class="at">legend.text =</span>  <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">14</span>)),</span>
+<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a>  kenya_map <span class="sc">%&gt;%</span></span>
+<span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a>    <span class="fu">mutate</span>(<span class="at">hier_cluster_k =</span> <span class="fu">as.factor</span>(<span class="fu">cutree</span>(hier_model_1, <span class="at">k =</span> <span class="dv">4</span>))) <span class="sc">%&gt;%</span></span>
+<span id="cb4-19"><a href="#cb4-19" aria-hidden="true" tabindex="-1"></a>    <span class="fu">ggplot</span>() <span class="sc">+</span></span>
+<span id="cb4-20"><a href="#cb4-20" aria-hidden="true" tabindex="-1"></a>    <span class="fu">geom_sf</span>(<span class="fu">aes</span>(<span class="at">color =</span> hier_cluster_k, <span class="at">fill =</span> Farming), <span class="at">linewidth =</span> <span class="fl">1.5</span>) <span class="sc">+</span></span>
+<span id="cb4-21"><a href="#cb4-21" aria-hidden="true" tabindex="-1"></a>    ggthemes<span class="sc">::</span><span class="fu">theme_map</span>() <span class="sc">+</span></span>
+<span id="cb4-22"><a href="#cb4-22" aria-hidden="true" tabindex="-1"></a>    <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Kenya Counties Clustered via Hierarchical Model (4 Clusters)"</span>) <span class="sc">+</span></span>
+<span id="cb4-23"><a href="#cb4-23" aria-hidden="true" tabindex="-1"></a>    <span class="fu">scale_fill_gradient</span>(<span class="at">low =</span> <span class="st">"white"</span>, <span class="at">high =</span> <span class="st">"darkred"</span>) <span class="sc">+</span></span>
+<span id="cb4-24"><a href="#cb4-24" aria-hidden="true" tabindex="-1"></a>    <span class="fu">theme</span>(<span class="at">legend.position =</span> <span class="st">"right"</span>,</span>
+<span id="cb4-25"><a href="#cb4-25" aria-hidden="true" tabindex="-1"></a>          <span class="at">plot.title =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">17</span>),</span>
+<span id="cb4-26"><a href="#cb4-26" aria-hidden="true" tabindex="-1"></a>          <span class="at">legend.title =</span>  <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">14</span>),</span>
+<span id="cb4-27"><a href="#cb4-27" aria-hidden="true" tabindex="-1"></a>          <span class="at">legend.text =</span>  <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">14</span>)),</span>
+<span id="cb4-28"><a href="#cb4-28" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb4-29"><a href="#cb4-29" aria-hidden="true" tabindex="-1"></a>  <span class="at">ncol =</span> <span class="dv">2</span>  <span class="co"># Set the number of columns in the grid</span></span>
+<span id="cb4-30"><a href="#cb4-30" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb4-31"><a href="#cb4-31" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-32"><a href="#cb4-32" aria-hidden="true" tabindex="-1"></a><span class="co"># Print the combined plot</span></span>
+<span id="cb4-33"><a href="#cb4-33" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(combined_plot)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
+</section>
+<section id="pc" class="level2">
+<h2 data-anchor-id="pc">PC</h2>
+<p>Creating Principle Components</p>
+<div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>pca_kenya <span class="ot">&lt;-</span> kenya_census <span class="sc">%&gt;%</span> </span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">prcomp</span>(<span class="at">scale =</span> <span class="cn">TRUE</span>, <span class="at">center =</span> <span class="cn">TRUE</span>) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
+<p>Loading plot of the first 2 PCs</p>
+<div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">fviz_pca_var</span>(pca_kenya, <span class="at">repel =</span> <span class="cn">TRUE</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
+<p>Cumulative % of variance explained by PC</p>
+<div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>pca_kenya <span class="sc">%&gt;%</span> </span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">tidy</span>(<span class="at">matrix =</span> <span class="st">"eigenvalues"</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">rbind</span>(<span class="dv">0</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>(<span class="fu">aes</span>(<span class="at">y =</span> cumulative, <span class="at">x =</span> PC)) <span class="sc">+</span> </span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>    <span class="fu">geom_point</span>(<span class="at">size =</span> <span class="dv">2</span>) <span class="sc">+</span> </span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a>    <span class="fu">geom_line</span>() <span class="sc">+</span> </span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a>    <span class="fu">scale_x_continuous</span>(<span class="at">breaks =</span> <span class="fu">seq</span>(<span class="dv">1</span>,<span class="dv">14</span>, <span class="at">by =</span><span class="dv">1</span>))<span class="sc">+</span></span>
+<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a>    <span class="fu">labs</span>(<span class="at">y =</span> <span class="st">"CUMULATIVE % of variance explained"</span>)<span class="sc">+</span></span>
+<span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
+<p>Exploring each feature in each PC</p>
+<div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>pca_kenya <span class="sc">%&gt;%</span> </span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pluck</span>(<span class="st">"rotation"</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">head</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
+<p>Score plot</p>
+<div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>pca_kenya <span class="sc">%&gt;%</span> </span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">fviz_pca_ind</span>(<span class="at">repel =</span> <span class="cn">TRUE</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
+<p>Bar plot for the first 4 PCs.</p>
+<div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="fu">melt</span>(pca_kenya<span class="sc">$</span>rotation[, <span class="dv">1</span><span class="sc">:</span><span class="dv">4</span>]) <span class="sc">%&gt;%</span> </span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>(<span class="fu">aes</span>(<span class="at">x =</span> Var1, <span class="at">y =</span> value, <span class="at">fill =</span> Var1)) <span class="sc">+</span></span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>    <span class="fu">geom_bar</span>(<span class="at">stat =</span> <span class="st">"identity"</span>) <span class="sc">+</span></span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a>    <span class="fu">facet_wrap</span>(<span class="sc">~</span> Var2) <span class="sc">+</span> </span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a>    <span class="fu">labs</span>(<span class="at">y =</span> <span class="st">"loadings"</span>, <span class="at">x =</span> <span class="st">"original features"</span>, <span class="at">fill =</span> <span class="st">"original features"</span>) <span class="sc">+</span></span>
+<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_fill_viridis_d</span>() <span class="sc">+</span></span>
+<span id="cb10-7"><a href="#cb10-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>() <span class="sc">+</span></span>
+<span id="cb10-8"><a href="#cb10-8" aria-hidden="true" tabindex="-1"></a> <span class="fu">theme</span>(<span class="at">axis.text.x =</span> <span class="fu">element_text</span>(<span class="at">angle =</span> <span class="dv">90</span>, <span class="at">vjust =</span> <span class="fl">0.5</span>)) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
+
+
+</section>
+</section>
+</main> 
+    <div class="about-footer"><div class="about-links">
   <a href="https://github.com/gnguyen87/unsupervised_kenyan_counties" class="about-link" rel="" target="">
     <i class="bi bi-github"></i>
      <span class="about-link-text">Github</span>
   </a>
 </div>
-      <div class="about-contents"><main class="content" id="quarto-document-content">
-<p>In this paper, I conducted 3 unsupervised learning analysis methods o uncover significant agricultural, demographic, and geographic patterns across 41 counties in Kenya.</p>
-<p>From my findings through investigating the first 2 PCs and my Hierarchical Clustering Model, I observed that my data exhibits high variability, high separatedness, and rather complex patterns. This indicate that I might need to retain more variability to capture the nuances in the data. Therefore, I would suggest moving forward with 4 PCs, with which I will retain 75% of my original information.From my findings through investigating the first 2 PCs and my Hierarchical Clustering Model, I observed that my data exhibits high variability, high separatedness, and rather complex patterns. This indicate that I might need to retain more variability to capture the nuances in the data. Therefore, I would suggest moving forward with 4 PCs, with which I will retain 75% of my original information.</p>
-
-
-</main></div>
-    </div>
-    <img src="thumbnail.png" class="about-image
-  rounded " style="width: 15em;">
+</div>
   </div>
 </div>
  <!-- /main -->

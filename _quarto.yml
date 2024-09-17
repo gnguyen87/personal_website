@@ -13,7 +13,7 @@ website:
         menu:
           - text: Data Science
             href: data.qmd
-          - text: Computer Science
+          - text: Data Engineering/Computer Science
             href: cs.qmd
       - icon: bar-chart
         text: Tidy Tuesdays

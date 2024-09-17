@@ -35,53 +35,18 @@
     "text": "Ngon is an interactive, multi-level game that invites users to play and learn more about Vietnamese cuisine at the same time. Using Tkinter to create its Graphic User Interface program, Ngon offers users a tailored experience by letting them create their own user name and choose their own level. A unique Vietnamese dish unraveled to users at every level, Ngon gives users information about the dish (its ingredients as well as its historical background) before taking them to the game screen, in which they must click on the correct icons of ingredients among many flying across the screen to win."
   },
   {
-    "objectID": "posts/certificates/IBM/index.html",
-    "href": "posts/certificates/IBM/index.html",
-    "title": "IBM",
+    "objectID": "posts/cs_projects/etl-ed-data/index.html",
+    "href": "posts/cs_projects/etl-ed-data/index.html",
+    "title": "Education data ELT Pipeline",
     "section": "",
-    "text": "IBM Introduction to Data Engineering\n\nCourse Objectives:\n\nList basic skills required for an entry-level data engineering role\nDiscuss various stages and concepts in the data engineering life cycle.\nDescribe data engineering technologies such as Relational Databases, NoSQL Data Stores, and Big Data Engines.\nSummarize concepts in data security, governance, and compliance.\n\n\n\nETL and Data Pipelines with Shell, Airflow and Kafka (ongoing)\nCourse Objectives:\n\nDescribe and contrast Extract, Transform, Load (ETL) processes.\nExplain batch vs concurrent modes of execution.\nImplement ETL workflow through bash and Python functions.\nDescribe data pipeline components, processes, tools, and technologies.\n\nSkills acquired:\n\nExtract Transform and Load (ETL)\nData Engineer\nApache Kafka\nApache Airflow\nData Pipelines"
+    "text": "Since the beginning of my internship as a Data Engineer at Education Analytics, I have become more and more interested in the world of DE. This is my first project in which I built a complete automated ELT pipeline. This pipeline involves a DAG on Apache Airflow set up to extract education data from Urban Institute’s API, serialize the API’s response into a JSON payload, as well as load the data into a PostgresSQL Database (DBeaver). It also entails desiging and modeling a dimensional data warehouse using dbt, transforming raw JSON data into clean, human-readable tables to support analytical queries, improving data accessibility for non-technical users downstream.\nThis is part of my onboarding training designed by EA."
   },
   {
-    "objectID": "posts/data_projects/depression_prediction/index.html",
-    "href": "posts/data_projects/depression_prediction/index.html",
-    "title": "Predicting Depression: An evaluation of the impact of Poverty & Physical Activity",
+    "objectID": "posts/certificates/dbt/index.html",
+    "href": "posts/certificates/dbt/index.html",
+    "title": "dbt: Data Build Tool",
     "section": "",
-    "text": "A collaborative project, our primary objective is to explore the variables related to depression by specifically looking at an individual’s physical activity levels and the socioeconomic conditions of participants. The former will help our team identify if physical activity promotes a healthier mind, while the latter variable will help identify a trend on if and how financial situations impact one’s mental health. In sum, our final goal is to better understand the relationship between these factors so as to identify potential risk factors or protective factors that could help indicate mental health outcomes."
-  },
-  {
-    "objectID": "posts/data_projects/moviesuccess_analysis/index.html",
-    "href": "posts/data_projects/moviesuccess_analysis/index.html",
-    "title": "Measuring Movie Success Beyond the Dollar",
-    "section": "",
-    "text": "Ever since the “Golden Age” of cinema in the 1930s that marked silent film a thing of the past, the film industry has witnessed unparalleled success and growth. From the first technicolor movies like The Wizard of Oz and Gone With The Wind to the computationally animated The Matrix, Jurassic Park, and the first fully computer-animated film, Toy Story, the industry of motion pictures has contributed greatly not only to technology but also the global economy. Especially in the current challenging economy and there has been a sharp decline in theater audience—[shrinking by half in the last 4 years]https://en.wikipedia.org/wiki/IMDb), film distributors are hesitant to take on a movie unless they can see its success first hand. Therefore, box-office, or the entire earnings generated through movie ticket sales, has been recognized as one of the primary indicators to compare film success. Many rely on it to decide whether to both produce and watch a film. However, are high grossing movies actually… good? If so, what else can we use to measure them?"
-  },
-  {
-    "objectID": "posts/data_projects/edTech_mentalHealth/index.html",
-    "href": "posts/data_projects/edTech_mentalHealth/index.html",
-    "title": "Building Etech for Mental Health",
-    "section": "",
-    "text": "This is a data science project created by Na Nguyen ’25 and Avianna Bui ’25 at Macalester College for COMP 212: Intermediate Data Science course in Fall 2023 semester. For more details on the project, visit our project website!\nThroughout and in the aftermath of the COVID-19 pandemic, there has been a notable shift towards incorporating technology into education. While educational technology has increased accessibility and flexibility in uncertain times, there are potential consequences due to the inherent lack of social connection and physical activities in online learning. In this project, we aim to investigate this increasing prevalence of educational technology and their impact on the well-being of individuals within this evolving educational landscape."
-  },
-  {
-    "objectID": "tidytuesdays.html",
-    "href": "tidytuesdays.html",
-    "title": "My Tidy Tuesdays!",
-    "section": "",
-    "text": "Besides all coursework projects, I endeavor to participate in Tidy Tuesday, a weekly data analysis project in the R programming language. It’s part of the broader #TidyTuesday initiative, which was started by the R4DS (R for Data Science) .\nBy being part of this online learning community, I am constantly enriching myself in new visualizations and data narratives while being updated on the current social, economic, and political landscape!\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nAre bigger ferris wheels with larger capacity more likely to be climate controlled?\n\n\n\n\n\n\nR\n\n\nInteractive Viz\n\n\nEducation\n\n\n\n\n\n\nSep 5, 2024\n\n\nNa Nguyen\n\n\n\n\n\n\n\n\n\n\n\n\nWhy do UK pupils in small towns had better educational attainment than in larger cities?\n\n\n\n\n\n\nR\n\n\nInteractive Viz\n\n\nEducation\n\n\n\n\n\n\nJan 28, 2024\n\n\nNa Nguyen\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "posts/data_projects/boardgame_analysis/index.html",
-    "href": "posts/data_projects/boardgame_analysis/index.html",
-    "title": "What Makes A Boardgame Difficult?",
-    "section": "",
-    "text": "Reliant on boardgames as a bonding activity during college, our group were intrigued to investigate data on Board games created from 1950-2016 to uncover the veil behind their complexity (from game types and minimum age to number of categories and maximum players) and how they may correlate!"
-  },
-  {
-    "objectID": "posts/data_projects/weightlifting_success/index.html",
-    "href": "posts/data_projects/weightlifting_success/index.html",
-    "title": "Are Weightlifting Contests…Fair?",
-    "section": "",
-    "text": "You may have probably seen people lifting different weights in the gym. But why do people even lift? There are numerous reasons for lifting but one of the most common reasons is to become stronger, while others do lifting for a competition such as powerlifting. Powerlifting is a strength sport that has been part of the Olympics Games since 1896 and consists of three attempts to achieve the maximum weight on each of the three lifts: squat, bench press, and deadlift. During these competitions, some participants lift heavier weights than others. So we wonder, what accounts for this difference in a competitor’s performance? Could it be merely because of biological factors? Or are there any other factors that might impact a person’s ability to lift a certain weight?"
+    "text": "dbt\ndbt (data build tool) is a popular open-source tool that enables data analysts and engineers to transform data in their data warehouse using SQL. It simplifies the process of building, testing, and maintaining data transformation pipelines, making it easier to create and manage data models.\n\n\ndbt Fundamentals\nCourse Description: Learn the foundational steps of transforming data in dbt Cloud. Start by connecting dbt Cloud to a data warehouse and Git repository, then explore key concepts like modeling, sources, testing, documentation, and deployment. Get hands-on by building a model and running tests in dbt Cloud. Course duration is approximately 5 hours.\nCertifcate\n\n\n\nJinja, Macro, and Packages\nCourse Description: Extend the functionality of dbt with Jinja/macros and leverage models and macros from packages.\n\n\n\nAnalyses and Seeds\nCourse Description: Leverage analyses for ad hoc queries with dbt code and seeds for incorporating version controlled CSV data in your project.\n # Advanced Testing (ongoing)\nLearn more about the theory of data testing and the practice of creating custom generic tests, leveraging tests in packages, and applying test configurations. (approximately 4 hours).\n\n\nAdvanced Materialization (ongoing)\nLearn about the advanced materializations that are built into dbt Core - ephemeral models, incremental models, and snapshots. Approximately two hours.\n\n\nRefactoring SQL for Modularity (ongoing)\nMigrate legacy code into modular dbt data models with guidance from dbt Labs experts. Port stored procedures or SQL scripts into your dbt cloud project for efficient and scalable transformations."
   },
   {
     "objectID": "posts/data_projects/investigating_kenya/index.html",
@@ -91,11 +56,109 @@
     "text": "In this paper, I conducted 3 unsupervised learning analysis methods o uncover significant agricultural, demographic, and geographic patterns across 41 counties in Kenya.\nFrom my findings through investigating the first 2 PCs and my Hierarchical Clustering Model, I observed that my data exhibits high variability, high separatedness, and rather complex patterns. This indicate that I might need to retain more variability to capture the nuances in the data. Therefore, I would suggest moving forward with 4 PCs, with which I will retain 75% of my original information.From my findings through investigating the first 2 PCs and my Hierarchical Clustering Model, I observed that my data exhibits high variability, high separatedness, and rather complex patterns. This indicate that I might need to retain more variability to capture the nuances in the data. Therefore, I would suggest moving forward with 4 PCs, with which I will retain 75% of my original information."
   },
   {
-    "objectID": "posts/certificates/dbt/index.html",
-    "href": "posts/certificates/dbt/index.html",
-    "title": "dbt: Data Build Tool",
+    "objectID": "posts/data_projects/investigating_kenya/index.html#k-means-clustering",
+    "href": "posts/data_projects/investigating_kenya/index.html#k-means-clustering",
+    "title": "Investigating Kenya",
+    "section": "K-means Clustering",
+    "text": "K-means Clustering\nWhen performing the K-means model, I first use a silhouette method that chooses K to maximize the distance betIen clusters and minimizes distance within clusters. This resulted in K equals to 9 clusters. This is a very large value for K given that my dataset only has 41 counties. This might be due to the small size of my dataset and data points being too Ill-separated. 9 clusters, consequently, cannot give us the best grouping and interpretability for my dataset. Rather, the algorithm might be creating clusters that capture noise or irrelevant patterns in the data, leading to inflated silhouette scores. Hence, given the size and context of the dataset , which results in difficulties when choosing K, and an unreasonable value of K using the silhouette method, I’ll continue my analysis using a hierarchical clustering method, which I believe is a better approach."
+  },
+  {
+    "objectID": "posts/data_projects/investigating_kenya/index.html#hierarchical-clustering",
+    "href": "posts/data_projects/investigating_kenya/index.html#hierarchical-clustering",
+    "title": "Investigating Kenya",
+    "section": "Hierarchical Clustering",
+    "text": "Hierarchical Clustering\nAccording to the hierarchical clustering model, roughly 4 natural clusters can be seen in the dendogram. 4 seems like an appropriate number of clusters given the fact that the dataset contains only 41 observations which could lead to clusters with roughly 10 counties each on average. Furthermore, maximum distance within clusters is 7.5, which is where cluster 2 (colored in purple) fuses, whereas other 3 clusters fuse at roughly a height of 6. Given the context of the data with maximum distance betIen any two pairs of counties in the dendogram being 10, the height of 6 allows to reduce amount of variability by 40 percent within each cluster. Thus, I examine 4 clusters in the dataset.\nHierarchical clustering further allows for open and different interpretation of the dendogram while visualizing structures within the clusters. Cluster 3 (in green) includes sub-groups whereas cluster 2 (in purple) is fused at the highest point which shows greater variability within the cluster. I further used complete linkage since I want all my clusters to have similar characteristics.\n\nThe first cluster of counties is not a farming cluster and does not specialize in growing any crops. HoIver, this is the cluster with the highest average household size and contains the second highest number of counties (11). Therefore, it is probably a cluster of urban counties. Counties such as Mombasa, Garissa, Wajir, etc that are included in cluster 1 are all urban cities or towns.\n\nCluster 2,3, and 4 are farming oriented counties that each specialize in a variety of crops.\nCluster 2 is the smallest cluster with 4 counties and specializes in cashew, coconut and mango production.\nCluster 3 is the largest cluster with 20 counties and primarily produce avocado along with tea and mango.\nCluster 4 produces avocado, coffee, khatmiraa, macadamia, and tea.\nThe male and female gender distribution is roughly the same across all clusters. HoIver, cluster 1 has the largest proportion of intersex population with cluster 2 and 3 having loIst proportion.\n\nConsidering the size of my dataset, I would move forward with my Hierarchical Clustering Model with 4 clusters as the approach to identify similarities betIen each county in Kenya. Furthermore, as seen in the hierarchical clustering map, clusters of counties identified are also geographically close to each other. This approach gives meaningful clusters in terms of agricultural expertise and geographical locations (urban vs rural)."
+  },
+  {
+    "objectID": "posts/data_projects/investigating_kenya/index.html#the-features-of-the-first-2-pcs",
+    "href": "posts/data_projects/investigating_kenya/index.html#the-features-of-the-first-2-pcs",
+    "title": "Investigating Kenya",
+    "section": "The features of the first 2 PCs",
+    "text": "The features of the first 2 PCs\n\nPrinciple component 1: PC1 is driven by Farming (negative contribution) and crop features such as Avocado and Coffee (negative contribution), Male(positive contribution), and Female (negative contribution). When observing my score plot, there is a cluster of cities that have a large positive PC1 value betIen 2.5 and 5. For example, mandera, mombasa, turkana, marsabit, wajir, isiolo, and garissa. This means that these observations either have a large negative Farming PC value, a large negative crop feature PC value (e.g., Avocado, Coffee, and Tea), a large positive Male PC value, and/or a large negative Female PC value.\n\nThese observations overlap with my findings from my K-Means model results, wherein cluster 1 include counties such as Mombasa, Garissa, Wajir,…- which are all urban cities or towns. In other words, this cluster of counties is not a farming cluster and does not specialize in growing any crops i.e. a large negative Farming and/or crop-related features PC value.\n\nPrinciple component 2: PC2 is driven by fruit/nut-bearing crop features such as Citrus, Mango, Coconut, and Cashew Nut (negative contribution). When observing my score plot, there is a cluster of cities that have a large negative PC2 value betIen -3 and -5. For example makueni, kilifi, kwale, and lamu. This means that these observations either have a large positive Citrus, Mango, Coconut, and/or Cashew Nut PC value.\n\n\n\nThese observations overlap with my findings from my K-Means model results as Ill, wherein cluster 4 include counties such as Makueni, Kilifi, Kwale, and Lamu which are scounties that pecializes in cashew, coconut and mango production."
+  },
+  {
+    "objectID": "posts/data_projects/investigating_kenya/index.html#final-pcs-and-information-retained",
+    "href": "posts/data_projects/investigating_kenya/index.html#final-pcs-and-information-retained",
+    "title": "Investigating Kenya",
+    "section": "Final PCs and information retained",
+    "text": "Final PCs and information retained\nFrom my findings through investigating the first 2 PCs and my Hierarchical Clustering Model, I observed that my data exhibits high variability, high separatedness, and rather complex patterns. This indicate that I might need to retain more variability to capture the nuances in the data. Therefore, I would suggest moving forward with 4 PCs, with which I will retain 75% of my original information."
+  },
+  {
+    "objectID": "posts/data_projects/investigating_kenya/index.html#data-import-and-cleaning",
+    "href": "posts/data_projects/investigating_kenya/index.html#data-import-and-cleaning",
+    "title": "Investigating Kenya",
+    "section": "Data import and cleaning",
+    "text": "Data import and cleaning\n\n\nCode\n# OPTIONAL: Set a more color blind friendly palette \npalette(\"Okabe-Ito\")\nscale_colour_discrete &lt;- function(...) scale_colour_manual(values = palette())\nscale_fill_discrete   &lt;- function(...) scale_fill_manual(values = palette())\n\nknitr::opts_chunk$set(\n  collapse = TRUE, \n  warning = FALSE,\n  message = FALSE,\n  fig.height = 2.75, \n  fig.width = 4.25,\n  fig.env='figure',\n  fig.pos = 'h',\n  fig.align = 'center')\n\n# Loading necessary libraries\nlibrary(corrplot)\nlibrary(dplyr)\nlibrary(tidyverse)\nlibrary(factoextra)\nlibrary(tidymodels)\nlibrary(reshape2)\nlibrary(sp)\nlibrary(sf)\nlibrary(plotly)\nlibrary(cowplot)\n\n# Read in original data \nkenya &lt;- read.csv(\"kenya_census.csv\")\n\n# Function to divide designated columns in a dataset by a total variable\nper_capita &lt;- function(dataset, var, cols) {\n  cols &lt;- dataset %&gt;% \n    select(cols) %&gt;% \n    colnames()\n  \n  dataset&lt;-dataset %&gt;% \n      mutate(across(.cols = cols, ~ . / {{var}}))\n  return(dataset)\n} \n\n# Applying function to create census data\nkenya_census &lt;- per_capita(kenya, Population, 15:17)\nkenya_census &lt;- per_capita(kenya_census, NumberOfHouseholds, 5:14)\n\n# Read in Kenya county shape files\nkenya_sf &lt;- read_sf(\"kenyan-counties\") %&gt;% \n  mutate(COUNTY = str_to_loIr(COUNTY))\n\n# Seeing unmatched pairs from 2 datasets\nkenya_census %&gt;% \n  anti_join(kenya_sf, by = c('County' = 'COUNTY'))\n\n# Wrangling Kenya data and creating Kenya Map data by joining sf and census data\nkenya_map &lt;- kenya_sf %&gt;% \n  mutate(COUNTY = case_when(\n    COUNTY == \"taita taveta\" ~\"taita/taveta\",\n    COUNTY == \"tharaka\" ~ \"tharaka-nithi\"  ,\n    COUNTY == \"keiyo-marakIt\" ~\"elgeyo/marakIt\" ,\n    TRUE ~ COUNTY\n  )) %&gt;% \n  inner_join(kenya_census, by = c('COUNTY' = 'County')) %&gt;% \n  select(-Total, -Population, -NumberOfHouseholds)\n\n\nkenya_census &lt;- kenya_census %&gt;% \n  column_to_rownames(\"County\")\n\nkenya_census &lt;- kenya_census %&gt;% \n  select(-Total, -Population, -NumberOfHouseholds)"
+  },
+  {
+    "objectID": "posts/data_projects/investigating_kenya/index.html#k-means",
+    "href": "posts/data_projects/investigating_kenya/index.html#k-means",
+    "title": "Investigating Kenya",
+    "section": "K-means",
+    "text": "K-means\nChoosing K using silhouette and K-means Clustering\n\n\nCode\n# Choosing K\nfviz_nbclust(scale(kenya_census), kmeans, method='silhouette')\n\n# K-means clustering\nset.seed(253)\nkmeans_model &lt;- kmeans(kenya_census, centers = 9, nstart = 50)\n\n# Get the \"the total within- cluster sum of squares\"\n# This is the total squared distance of each case from its assigned centroid\ntot.within &lt;- kmeans_model$tot.withinss\n\n# Assign each sample case to a cluster\n# I typically want to store this in a new dataset so that the cluster assignments aren't\n# accidentally used as features in a later analysis!\ncluster_kenya &lt;- kenya_census %&gt;%\n  mutate(kmeans_cluster_k = kmeans_model$cluster)"
+  },
+  {
+    "objectID": "posts/data_projects/investigating_kenya/index.html#hierarchical-clustering-1",
+    "href": "posts/data_projects/investigating_kenya/index.html#hierarchical-clustering-1",
+    "title": "Investigating Kenya",
+    "section": "Hierarchical Clustering",
+    "text": "Hierarchical Clustering\nCreating hierarchical clustering and exploring characteristics of each cluster (k = 4)\n\n\nCode\n# Creating Hierarchical Clustering Model\nhier_model_1 &lt;- hclust(dist(scale(kenya_census)), method = \"complete\")\n\n# Creating Hierarchical Clustering Model Dendogram\nfviz_dend(hier_model_1, k = 4, cex = .5)\n\n# Creating a column for the clusters and their mean respective to every feature in the dataset.\nkenya_census_1 &lt;- kenya_census %&gt;%\n  mutate(hier_cluster_k = as.factor(cutree(hier_model_1, k = 4))) %&gt;%\n  group_by(hier_cluster_k) %&gt;%\n  summarize_all(mean)\n\n# Bar plot showing the characteristics of each cluster.\nkenya_census_1 %&gt;%\n  pivot_longer(cols = 2:15, names_to = \"variables\", values_to = \"values\") %&gt;%\n  ggplot(aes(x=hier_cluster_k, y = values, fill = hier_cluster_k )) +\n  geom_bar(stat=\"identity\") +\n  facet_wrap(~variables,scales='free') + \n  theme_minimal()+\n  theme(axis.text.x = element_text(angle = 90))\n\n kenya_census %&gt;%\n  mutate(hier_cluster_k = as.factor(cutree(hier_model_1, k = 4))) %&gt;%\n   count(hier_cluster_k)\n\n\nKenya county clusters map by different types of clustering models\n\n\nCode\n# \n\n# Combine the plots using cowplot\ncombined_plot &lt;- plot_grid(\n  kenya_map %&gt;%\n    mutate(kmeans_cluster = as.factor(kmeans_model$cluster)) %&gt;%\n    ggplot() +\n    geom_sf(aes(color = kmeans_cluster, fill = Farming), linewidth = 1.5) +\n    ggthemes::theme_map() +\n    labs(title = \"Kenya Counties Clustered via K-Means Model (9 K)\") +\n    scale_fill_gradient(low = \"white\", high = \"darkred\") +\n    theme(legend.position = \"right\",\n          plot.title = element_text(size = 17),\n          legend.title =  element_text(size = 14),\n          legend.text =  element_text(size = 14)),\n  \n  kenya_map %&gt;%\n    mutate(hier_cluster_k = as.factor(cutree(hier_model_1, k = 4))) %&gt;%\n    ggplot() +\n    geom_sf(aes(color = hier_cluster_k, fill = Farming), linewidth = 1.5) +\n    ggthemes::theme_map() +\n    labs(title = \"Kenya Counties Clustered via Hierarchical Model (4 Clusters)\") +\n    scale_fill_gradient(low = \"white\", high = \"darkred\") +\n    theme(legend.position = \"right\",\n          plot.title = element_text(size = 17),\n          legend.title =  element_text(size = 14),\n          legend.text =  element_text(size = 14)),\n  \n  ncol = 2  # Set the number of columns in the grid\n)\n\n# Print the combined plot\nprint(combined_plot)"
+  },
+  {
+    "objectID": "posts/data_projects/investigating_kenya/index.html#pc",
+    "href": "posts/data_projects/investigating_kenya/index.html#pc",
+    "title": "Investigating Kenya",
+    "section": "PC",
+    "text": "PC\nCreating Principle Components\n\n\nCode\npca_kenya &lt;- kenya_census %&gt;% \n  prcomp(scale = TRUE, center = TRUE) \n\n\nLoading plot of the first 2 PCs\n\n\nCode\nfviz_pca_var(pca_kenya, repel = TRUE)\n\n\nCumulative % of variance explained by PC\n\n\nCode\npca_kenya %&gt;% \n  tidy(matrix = \"eigenvalues\") %&gt;% \n  rbind(0) %&gt;% \n  ggplot(aes(y = cumulative, x = PC)) + \n    geom_point(size = 2) + \n    geom_line() + \n    scale_x_continuous(breaks = seq(1,14, by =1))+\n    labs(y = \"CUMULATIVE % of variance explained\")+\n  theme_minimal()\n\n\nExploring each feature in each PC\n\n\nCode\npca_kenya %&gt;% \n  pluck(\"rotation\") %&gt;% \n  head()\n\n\nScore plot\n\n\nCode\npca_kenya %&gt;% \n  fviz_pca_ind(repel = TRUE)\n\n\nBar plot for the first 4 PCs.\n\n\nCode\nmelt(pca_kenya$rotation[, 1:4]) %&gt;% \n  ggplot(aes(x = Var1, y = value, fill = Var1)) +\n    geom_bar(stat = \"identity\") +\n    facet_wrap(~ Var2) + \n    labs(y = \"loadings\", x = \"original features\", fill = \"original features\") +\n  scale_fill_viridis_d() +\n  theme_minimal() +\n theme(axis.text.x = element_text(angle = 90, vjust = 0.5))"
+  },
+  {
+    "objectID": "posts/data_projects/weightlifting_success/index.html",
+    "href": "posts/data_projects/weightlifting_success/index.html",
+    "title": "Are Weightlifting Contests…Fair?",
     "section": "",
-    "text": "dbt\ndbt (data build tool) is a popular open-source tool that enables data analysts and engineers to transform data in their data warehouse using SQL. It simplifies the process of building, testing, and maintaining data transformation pipelines, making it easier to create and manage data models.\n\n\ndbt Fundamentals\nCourse Description: Learn the foundational steps of transforming data in dbt Cloud. Start by connecting dbt Cloud to a data warehouse and Git repository, then explore key concepts like modeling, sources, testing, documentation, and deployment. Get hands-on by building a model and running tests in dbt Cloud. Course duration is approximately 5 hours.\nCertifcate\n\n\n\nJinja, Macro, and Packages\nCourse Description: Extend the functionality of dbt with Jinja/macros and leverage models and macros from packages.\n\n\n\nAnalyses and Seeds\nCourse Description: Leverage analyses for ad hoc queries with dbt code and seeds for incorporating version controlled CSV data in your project.\n # Advanced Testing (ongoing)\nLearn more about the theory of data testing and the practice of creating custom generic tests, leveraging tests in packages, and applying test configurations. (approximately 4 hours).\n\n\nAdvanced Materialization (ongoing)\nLearn about the advanced materializations that are built into dbt Core - ephemeral models, incremental models, and snapshots. Approximately two hours.\n\n\nRefactoring SQL for Modularity (ongoing)\nMigrate legacy code into modular dbt data models with guidance from dbt Labs experts. Port stored procedures or SQL scripts into your dbt cloud project for efficient and scalable transformations."
+    "text": "You may have probably seen people lifting different weights in the gym. But why do people even lift? There are numerous reasons for lifting but one of the most common reasons is to become stronger, while others do lifting for a competition such as powerlifting. Powerlifting is a strength sport that has been part of the Olympics Games since 1896 and consists of three attempts to achieve the maximum weight on each of the three lifts: squat, bench press, and deadlift. During these competitions, some participants lift heavier weights than others. So we wonder, what accounts for this difference in a competitor’s performance? Could it be merely because of biological factors? Or are there any other factors that might impact a person’s ability to lift a certain weight?"
+  },
+  {
+    "objectID": "posts/data_projects/boardgame_analysis/index.html",
+    "href": "posts/data_projects/boardgame_analysis/index.html",
+    "title": "What Makes A Boardgame Difficult?",
+    "section": "",
+    "text": "Reliant on boardgames as a bonding activity during college, our group were intrigued to investigate data on Board games created from 1950-2016 to uncover the veil behind their complexity (from game types and minimum age to number of categories and maximum players) and how they may correlate!"
+  },
+  {
+    "objectID": "tidytuesdays.html",
+    "href": "tidytuesdays.html",
+    "title": "My Tidy Tuesdays!",
+    "section": "",
+    "text": "Besides all coursework projects, I endeavor to participate in Tidy Tuesday, a weekly data analysis project in the R programming language. It’s part of the broader #TidyTuesday initiative, which was started by the R4DS (R for Data Science) .\nBy being part of this online learning community, I am constantly enriching myself in new visualizations and data narratives while being updated on the current social, economic, and political landscape!\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nAre bigger ferris wheels with larger capacity more likely to be climate controlled?\n\n\n\n\n\n\nR\n\n\nInteractive Viz\n\n\nEducation\n\n\n\n\n\n\nSep 5, 2024\n\n\nNa Nguyen\n\n\n\n\n\n\n\n\n\n\n\n\nWhy do UK pupils in small towns had better educational attainment than in larger cities?\n\n\n\n\n\n\nR\n\n\nInteractive Viz\n\n\nEducation\n\n\n\n\n\n\nJan 28, 2024\n\n\nNa Nguyen\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/data_projects/edTech_mentalHealth/index.html",
+    "href": "posts/data_projects/edTech_mentalHealth/index.html",
+    "title": "Building Etech for Mental Health",
+    "section": "",
+    "text": "This is a data science project created by Na Nguyen ’25 and Avianna Bui ’25 at Macalester College for COMP 212: Intermediate Data Science course in Fall 2023 semester. For more details on the project, visit our project website!\nThroughout and in the aftermath of the COVID-19 pandemic, there has been a notable shift towards incorporating technology into education. While educational technology has increased accessibility and flexibility in uncertain times, there are potential consequences due to the inherent lack of social connection and physical activities in online learning. In this project, we aim to investigate this increasing prevalence of educational technology and their impact on the well-being of individuals within this evolving educational landscape."
+  },
+  {
+    "objectID": "posts/data_projects/moviesuccess_analysis/index.html",
+    "href": "posts/data_projects/moviesuccess_analysis/index.html",
+    "title": "Measuring Movie Success Beyond the Dollar",
+    "section": "",
+    "text": "Ever since the “Golden Age” of cinema in the 1930s that marked silent film a thing of the past, the film industry has witnessed unparalleled success and growth. From the first technicolor movies like The Wizard of Oz and Gone With The Wind to the computationally animated The Matrix, Jurassic Park, and the first fully computer-animated film, Toy Story, the industry of motion pictures has contributed greatly not only to technology but also the global economy. Especially in the current challenging economy and there has been a sharp decline in theater audience—[shrinking by half in the last 4 years]https://en.wikipedia.org/wiki/IMDb), film distributors are hesitant to take on a movie unless they can see its success first hand. Therefore, box-office, or the entire earnings generated through movie ticket sales, has been recognized as one of the primary indicators to compare film success. Many rely on it to decide whether to both produce and watch a film. However, are high grossing movies actually… good? If so, what else can we use to measure them?"
+  },
+  {
+    "objectID": "posts/data_projects/depression_prediction/index.html",
+    "href": "posts/data_projects/depression_prediction/index.html",
+    "title": "Predicting Depression: An evaluation of the impact of Poverty & Physical Activity",
+    "section": "",
+    "text": "A collaborative project, our primary objective is to explore the variables related to depression by specifically looking at an individual’s physical activity levels and the socioeconomic conditions of participants. The former will help our team identify if physical activity promotes a healthier mind, while the latter variable will help identify a trend on if and how financial situations impact one’s mental health. In sum, our final goal is to better understand the relationship between these factors so as to identify potential risk factors or protective factors that could help indicate mental health outcomes."
+  },
+  {
+    "objectID": "posts/certificates/IBM/index.html",
+    "href": "posts/certificates/IBM/index.html",
+    "title": "IBM",
+    "section": "",
+    "text": "IBM Introduction to Data Engineering\n\nCourse Objectives:\n\nList basic skills required for an entry-level data engineering role\nDiscuss various stages and concepts in the data engineering life cycle.\nDescribe data engineering technologies such as Relational Databases, NoSQL Data Stores, and Big Data Engines.\nSummarize concepts in data security, governance, and compliance.\n\n\n\nETL and Data Pipelines with Shell, Airflow and Kafka (ongoing)\nCourse Objectives:\n\nDescribe and contrast Extract, Transform, Load (ETL) processes.\nExplain batch vs concurrent modes of execution.\nImplement ETL workflow through bash and Python functions.\nDescribe data pipeline components, processes, tools, and technologies.\n\nSkills acquired:\n\nExtract Transform and Load (ETL)\nData Engineer\nApache Kafka\nApache Airflow\nData Pipelines"
   },
   {
     "objectID": "posts/cs_projects/pokemon/index.html",
@@ -116,7 +179,7 @@
     "href": "index.html",
     "title": "Welcome!",
     "section": "",
-    "text": "Hello there! I’m Na Nguyen, a dedicated student pursuing a double major in Data Science and International Studies with a disciplinary focus in Educational Studies at Macalester College (Class of ’25). I am always acquiring new technical skills, applying my academic training, and immersing myself in various community-based roles and projects. Currently, I am working as a Data Engineer Associate at Education Analytics, an NPO dedicated to accessible and affordable education data services.\nExplore my portfolio where I am constantly investigating how education, health, industry, and technology as separate entities as well as ways they can converge!"
+    "text": "Hello there! I’m Na Nguyen, a dedicated student pursuing a double major in Data Science and International Studies with a disciplinary focus in Educational Studies at Macalester College (Class of ’25). Currently, I am working as a Data Engineer Associate at Education Analytics, an NPO dedicated to accessible and affordable education data services."
   },
   {
     "objectID": "index.html#education",
@@ -137,7 +200,7 @@
     "href": "cs.html",
     "title": "My Computer Science Projects",
     "section": "",
-    "text": "Alongside Data Science, I train myself in Python and Java within both frameworks of functional programming (FP) and object-oriented programming (OOP) to develop multi-level games. With my background in education, my aim is to create games that not only entertain but also foster cultural understanding and align with developmental milestones.\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nPokemon Card Game\n\n\n\n\n\n\nJava\n\n\nGame\n\n\n\n\n\n\nDec 13, 2023\n\n\nNa Nguyen, Linh Nguyen, James Hernandez\n\n\n\n\n\n\n\n\n\n\n\n\nNgon Game\n\n\n\n\n\n\nPython\n\n\nGame\n\n\n\n\n\n\nDec 13, 2022\n\n\nNa Nguyen\n\n\n\n\n\n\nNo matching items"
+    "text": "Alongside Data Science, I train myself in Python and Java within both frameworks of functional programming (FP) and object-oriented programming (OOP) to develop multi-level games. With my background in education, my aim is to create games that not only entertain but also foster cultural understanding and align with developmental milestones.\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nEducation data ELT Pipeline\n\n\n\n\n\n\nPython\n\n\nData Engineering\n\n\nApache Airflow\n\n\ndbt\n\n\n\n\n\n\nSep 11, 2024\n\n\nNa Nguyen\n\n\n\n\n\n\n\n\n\n\n\n\nPokemon Card Game\n\n\n\n\n\n\nJava\n\n\nGame\n\n\n\n\n\n\nDec 13, 2023\n\n\nNa Nguyen, Linh Nguyen, James Hernandez\n\n\n\n\n\n\n\n\n\n\n\n\nNgon Game\n\n\n\n\n\n\nPython\n\n\nGame\n\n\n\n\n\n\nDec 13, 2022\n\n\nNa Nguyen\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "blocks4all.html",

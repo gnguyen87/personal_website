@@ -17,7 +17,7 @@ about:
 
 # IBM Introduction to Data Engineering
 
-![](Coursera JYO62PT1FO1G.pdf)
+![](Coursera%20JYO62PT1FO1G.pdf)
 
 Course Objectives:
 

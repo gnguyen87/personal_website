@@ -20,14 +20,12 @@ about:
       href: mailto:n.anhnguyen.work@gmail.com
     - icon: file-earmark-person
       text: Resume
-      href: https://drive.google.com/file/d/11EbhfuVzJdqtE7oejK3hat2aYHec18nZ/view?usp=sharing
+      href: https://drive.google.com/file/d/1K6I1RhDkKJ5fYrXzQ9SvS1JUcjoqlA-O/view?usp=sharing
       
 comments: false
 ---
 
-Hello there! I'm **Na Nguyen**, a dedicated student pursuing a double major in **Data Science and International Studies** with a disciplinary focus in **Educational Studies** at Macalester College (Class of '25). I am always acquiring new technical skills, applying my academic training, and immersing myself in various community-based roles and projects. Currently, I am working as a **Data Engineer Associate** at **Education Analytics**, an NPO dedicated to accessible and affordable education data services.
-
-Explore my portfolio where I am constantly investigating how education, health, industry, and technology as separate entities as well as ways they can converge!
+Hello there! I'm **Na Nguyen**, a dedicated student pursuing a double major in **Data Science and International Studies** with a disciplinary focus in **Educational Studies** at Macalester College (Class of '25). Currently, I am working as a **Data Engineer Associate** at **Education Analytics**, an NPO dedicated to accessible and affordable education data services.
 
 ## Education
 
